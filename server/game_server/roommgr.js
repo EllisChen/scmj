@@ -10,6 +10,7 @@ var DI_FEN = [1,2,5];
 var MAX_FAN = [3,4,5];
 var JU_SHU = [4,8];
 var JU_SHU_COST = [2,3];
+var NUMBER_PLAYERS_ARR = [4,3,2];
 
 const NUMBER_PLAYER = 2; //麻将玩家数
 
@@ -68,8 +69,9 @@ function constructRoomFromDb(dbdata){
 }
 
 exports.createRoom = function(creator,roomConf,gems,ip,port,callback){
-
-console.log('------------------ellis  roommgr.createRoom is called');	
+	
+console.log('------------------ellis  roommgr.createRoom is called, roomConf is', roomConf);	
+console.log('------------------roomConf.playernumber='+roomConf.playernumber);
 	if(
 		roomConf.type == null
 		|| roomConf.difen == null
@@ -80,7 +82,8 @@ console.log('------------------ellis  roommgr.createRoom is called');
 		|| roomConf.jushuxuanze == null
 		|| roomConf.dianganghua == null
 		|| roomConf.menqing == null
-		|| roomConf.tiandihu == null){
+		|| roomConf.tiandihu == null
+		|| roomConf.playernumber == null){
 		callback(1,null);
 		return;
 	}
@@ -145,7 +148,8 @@ console.log('------------------ellis  roommgr.createRoom is called');
 						    menqing:roomConf.menqing,
 						    tiandihu:roomConf.tiandihu,
 						    maxFan:MAX_FAN[roomConf.zuidafanshu],
-						    maxGames:JU_SHU[roomConf.jushuxuanze],
+							maxGames:JU_SHU[roomConf.jushuxuanze],
+							numberPlayers:NUMBER_PLAYERS_ARR[roomConf.playernumber],
 						    creator:creator,
 						}
 					};

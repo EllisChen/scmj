@@ -127,7 +127,7 @@ app.get('/create_private_room',function(req,res){
 	data.sign = null;
 	var conf = data.conf;
 	console.log('conf is ', conf);
-	console.log('conf.playernumber is ', conf.playernumber);
+	console.log('conf.playernumber is =' + conf.playernumber);
 	db.get_user_data(account,function(data){
 		if(data == null){
 			http.send(res,1,"system error");
@@ -136,7 +136,7 @@ app.get('/create_private_room',function(req,res){
 		var userId = data.userid;
 		var name = data.name;
 		//验证玩家状态
-		db.get_room_id_of_user(userId,function(roomId){
+		db.get_room_id_of_user(userId,function(roomId){``
 			if(roomId != null){
 				http.send(res,-1,"user is playing in room now.");
 				return;
