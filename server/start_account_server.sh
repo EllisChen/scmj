@@ -1,0 +1,1 @@
+nohup node ./account_server/app.js ../configs_win.js >> logs/account_server.log &

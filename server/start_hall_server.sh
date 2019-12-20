@@ -1,0 +1,1 @@
+nohup node ./hall_server/app.js ../configs_win.js >> logs/hall_server.log &
