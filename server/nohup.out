@@ -1,0 +1,493 @@
+## There is an issue with `node-fibers` ##
+`/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/bin/darwin-x64-72/fibers.node` is missing.
+
+Try running this to fix the issue: /usr/local/bin/node /Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/build
+## There is an issue with `node-fibers` ##
+`/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/bin/darwin-x64-72/fibers.node` is missing.
+
+Try running this to fix the issue: /usr/local/bin/node /Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/build
+Error: Cannot find module '/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/bin/darwin-x64-72/fibers'
+Require stack:
+- /Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/fibers.js
+- /Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/utils/http.js
+- /Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/game_server/http_service.js
+- /Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/game_server/app.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:797:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:690:27)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/fibers.js:14:39)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+Error: Cannot find module '/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/bin/darwin-x64-72/fibers'
+Require stack:
+- /Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/fibers.js
+- /Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/utils/http.js
+- /Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/hall_server/client_service.js
+- /Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/hall_server/app.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:797:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:690:27)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/fibers.js:14:39)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/fibers.js:23
+		throw new Error('Missing binary. See message above.');
+		^
+
+Error: Missing binary. See message above.
+    at Object.<anonymous> (/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/fibers.js:23:9)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/utils/http.js:4:14)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/fibers.js:23
+		throw new Error('Missing binary. See message above.');
+		^
+
+Error: Missing binary. See message above.
+    at Object.<anonymous> (/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/fibers.js:23:9)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/utils/http.js:4:14)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+## There is an issue with `node-fibers` ##
+`/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/bin/darwin-x64-72/fibers.node` is missing.
+
+Try running this to fix the issue: /usr/local/bin/node /Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/build
+Error: Cannot find module '/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/bin/darwin-x64-72/fibers'
+Require stack:
+- /Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/fibers.js
+- /Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/utils/http.js
+- /Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/account_server/account_server.js
+- /Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/account_server/app.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:797:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:690:27)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/fibers.js:14:39)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/fibers.js:23
+		throw new Error('Missing binary. See message above.');
+		^
+
+Error: Missing binary. See message above.
+    at Object.<anonymous> (/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/fibers.js:23:9)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/utils/http.js:4:14)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+## There is an issue with `node-fibers` ##
+`/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/bin/darwin-x64-72/fibers.node` is missing.
+
+Try running this to fix the issue: /usr/local/bin/node /Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/build
+## There is an issue with `node-fibers` ##
+`/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/bin/darwin-x64-72/fibers.node` is missing.
+
+Try running this to fix the issue: /usr/local/bin/node /Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/build
+Error: Cannot find module '/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/bin/darwin-x64-72/fibers'
+Require stack:
+- /Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/fibers.js
+- /Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/utils/http.js
+- /Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/hall_server/client_service.js
+- /Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/hall_server/app.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:797:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:690:27)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/fibers.js:14:39)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+Error: Cannot find module '/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/bin/darwin-x64-72/fibers'
+Require stack:
+- /Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/fibers.js
+- /Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/utils/http.js
+- /Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/game_server/http_service.js
+- /Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/game_server/app.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:797:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:690:27)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/fibers.js:14:39)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/fibers.js:23
+		throw new Error('Missing binary. See message above.');
+		^
+
+Error: Missing binary. See message above.
+    at Object.<anonymous> (/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/fibers.js:23:9)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/utils/http.js:4:14)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/fibers.js:23
+		throw new Error('Missing binary. See message above.');
+		^
+
+Error: Missing binary. See message above.
+    at Object.<anonymous> (/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/fibers.js:23:9)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/utils/http.js:4:14)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+## There is an issue with `node-fibers` ##
+`/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/bin/darwin-x64-72/fibers.node` is missing.
+
+Try running this to fix the issue: /usr/local/bin/node /Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/build
+Error: Cannot find module '/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/bin/darwin-x64-72/fibers'
+Require stack:
+- /Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/fibers.js
+- /Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/utils/http.js
+- /Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/account_server/account_server.js
+- /Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/account_server/app.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:797:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:690:27)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/fibers.js:14:39)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/fibers.js:23
+		throw new Error('Missing binary. See message above.');
+		^
+
+Error: Missing binary. See message above.
+    at Object.<anonymous> (/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/fibers.js:23:9)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/utils/http.js:4:14)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+## There is an issue with `node-fibers` ##
+`/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/bin/darwin-x64-72/fibers.node` is missing.
+
+Try running this to fix the issue: /usr/local/bin/node /Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/build
+## There is an issue with `node-fibers` ##
+`/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/bin/darwin-x64-72/fibers.node` is missing.
+
+Try running this to fix the issue: /usr/local/bin/node /Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/build
+Error: Cannot find module '/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/bin/darwin-x64-72/fibers'
+Require stack:
+- /Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/fibers.js
+- /Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/utils/http.js
+- /Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/hall_server/client_service.js
+- /Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/hall_server/app.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:797:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:690:27)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/fibers.js:14:39)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+Error: Cannot find module '/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/bin/darwin-x64-72/fibers'
+Require stack:
+- /Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/fibers.js
+- /Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/utils/http.js
+- /Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/game_server/http_service.js
+- /Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/game_server/app.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:797:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:690:27)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/fibers.js:14:39)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/fibers.js:23
+		throw new Error('Missing binary. See message above.');
+		^
+
+Error: Missing binary. See message above.
+    at Object.<anonymous> (/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/fibers.js:23:9)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/utils/http.js:4:14)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/fibers.js:23
+		throw new Error('Missing binary. See message above.');
+		^
+
+Error: Missing binary. See message above.
+    at Object.<anonymous> (/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/fibers.js:23:9)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/utils/http.js:4:14)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+## There is an issue with `node-fibers` ##
+`/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/bin/darwin-x64-72/fibers.node` is missing.
+
+Try running this to fix the issue: /usr/local/bin/node /Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/build
+Error: Cannot find module '/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/bin/darwin-x64-72/fibers'
+Require stack:
+- /Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/fibers.js
+- /Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/utils/http.js
+- /Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/account_server/account_server.js
+- /Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/account_server/app.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:797:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:690:27)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/fibers.js:14:39)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/fibers.js:23
+		throw new Error('Missing binary. See message above.');
+		^
+
+Error: Missing binary. See message above.
+    at Object.<anonymous> (/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/fibers/fibers.js:23:9)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/utils/http.js:4:14)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+account server is listening on 9000
+client service is listening on port 9001
+dealer api is listening on localhost:12581
+room service is listening on localhost:9002
+game server is listening on localhost:9003
+game server is listening on 10000
+(node:996) [DEP0066] DeprecationWarning: OutgoingMessage.prototype._headers is deprecated
+game server registered.
+	id:192.168.0.104:10000
+	addr:127.0.0.1
+	http port:9003
+	socket clientport:10000
+(node:998) [DEP0066] DeprecationWarning: OutgoingMessage.prototype._headers is deprecated
+serverId=192.168.0.104:10000
+sign=7a898f641356a319f6d58819be8cdd34
+config.SERVER_ID=001
+(node:1000) [DEP0066] DeprecationWarning: OutgoingMessage.prototype._headers is deprecated
+invalid parameters-1
+/guest is called with account  guest_1576681472380
+client_service /login is called **************
+(node:998) [DEP0095] DeprecationWarning: timers.enroll() is deprecated. Please use setTimeout instead.
+(node:998) [DEP0126] DeprecationWarning: timers.active() is deprecated. Please use timeout.refresh() instead.
+/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/mysql/lib/protocol/Parser.js:78
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+Error: ER_BAD_DB_ERROR: Unknown database 'db_babykylin'
+    at Handshake.Sequence._packetToError (/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/mysql/lib/protocol/sequences/Sequence.js:51:14)
+    at Handshake.ErrorPacket (/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/mysql/lib/protocol/Parser.js:74:12)
+    at Protocol.write (/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/mysql/lib/Connection.js:109:28)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    at readableAddChunk (_stream_readable.js:290:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    --------------------
+    at Protocol._enqueue (/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/mysql/lib/Connection.js:136:18)
+    at Pool.getConnection (/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/mysql/lib/Pool.js:48:16)
+    at query (/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/utils/db.js:23:10)
+    at Object.exports.get_user_data (/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/utils/db.js:157:5)
+    at /Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/hall_server/client_service.js:49:5
+    at Layer.handle [as handle_request] (/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/express/lib/router/route.js:112:3) {
+  code: 'ER_BAD_DB_ERROR',
+  errno: 1049,
+  sqlState: '42000',
+  fatal: true
+}
+problem with request: connect ECONNREFUSED 127.0.0.1:9002
+problem with request: connect ECONNREFUSED 127.0.0.1:9002
+problem with request: connect ECONNREFUSED 127.0.0.1:9002
+problem with request: connect ECONNREFUSED 127.0.0.1:9002
+problem with request: connect ECONNREFUSED 127.0.0.1:9002
+problem with request: connect ECONNREFUSED 127.0.0.1:9002
+problem with request: connect ECONNREFUSED 127.0.0.1:9002
+problem with request: connect ECONNREFUSED 127.0.0.1:9002
+problem with request: connect ECONNREFUSED 127.0.0.1:9002
+problem with request: connect ECONNREFUSED 127.0.0.1:9002
+problem with request: connect ECONNREFUSED 127.0.0.1:9002
+problem with request: connect ECONNREFUSED 127.0.0.1:9002
+problem with request: connect ECONNREFUSED 127.0.0.1:9002
+problem with request: connect ECONNREFUSED 127.0.0.1:9002
+problem with request: connect ECONNREFUSED 127.0.0.1:9002
+problem with request: connect ECONNREFUSED 127.0.0.1:9002
+problem with request: connect ECONNREFUSED 127.0.0.1:9002
+problem with request: connect ECONNREFUSED 127.0.0.1:9002
+account server is listening on 9000
+dealer api is listening on localhost:12581
+client service is listening on port 9001
+events.js:187
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::9000
+    at Server.setupListenHandle [as _listen2] (net.js:1301:14)
+    at listenInCluster (net.js:1349:12)
+    at Server.listen (net.js:1437:7)
+    at Function.listen (/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/node_modules/express/lib/application.js:617:24)
+    at Object.exports.start (/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/account_server/account_server.js:20:6)
+    at Object.<anonymous> (/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/account_server/app.js:11:4)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (net.js:1328:8)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 9000
+}
+room service is listening on localhost:9002
+game server is listening on localhost:9003
+game server is listening on 10000
+events.js:187
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::10000
+    at Server.setupListenHandle [as _listen2] (net.js:1301:14)
+    at listenInCluster (net.js:1349:12)
+    at Server.listen (net.js:1437:7)
+    at Object.exports.start (/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/game_server/socket_service.js:30:13)
+    at Object.<anonymous> (/Users/ellischen/Desktop/ellis/B-1001/game/1-scmj/babykylin_scmj/server/game_server/app.js:16:16)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:1047:10)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (net.js:1328:8)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 10000
+}
+东方雀圣
+(node:1037) [DEP0095] DeprecationWarning: timers.enroll() is deprecated. Please use setTimeout instead.
+(node:1037) [DEP0126] DeprecationWarning: timers.active() is deprecated. Please use timeout.refresh() instead.
+(node:1037) [DEP0096] DeprecationWarning: timers.unenroll() is deprecated. Please use clearTimeout instead.
+INSERT INTO t_users(userid,account,name,coins,gems,sex,headimg) VALUES("448718", "guest_1576681472380","5Lic5pa56ZuA5Zyj",1000,21,0,null)
+(node:1037) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(node:1037) [DEP0066] DeprecationWarning: OutgoingMessage.prototype._headers is deprecated
+client_service /login is called **************
+SELECT name,sex,headimg FROM t_users WHERE userid=448718
+get_message is called with type = notice, version is null
+(node:996) [DEP0095] DeprecationWarning: timers.enroll() is deprecated. Please use setTimeout instead.
+(node:996) [DEP0126] DeprecationWarning: timers.active() is deprecated. Please use timeout.refresh() instead.
+get_message is called with type = fkgm, version is null
+(node:996) [DEP0096] DeprecationWarning: timers.unenroll() is deprecated. Please use clearTimeout instead.
+get_message is called with data  RowDataPacket {
+  type: 'notice',
+  msg: '幼麟游戏，卓越品质，值得信赖',
+  version: '20161128'
+}
+get_message is called with data  RowDataPacket {
+  type: 'fkgm',
+  msg: '幼麟游戏，卓越品质，值得信赖',
+  version: '20161128'
+}
+(node:996) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+东方雀圣
+东方雀圣
+东方雀圣
+东方雀圣
+game server registered.
+	id:192.168.0.104:10000
+	addr:127.0.0.1
+	http port:9003
+	socket clientport:10000
+serverId=192.168.0.104:10000
+sign=7a898f641356a319f6d58819be8cdd34
+config.SERVER_ID=001
+invalid parameters-1
+/guest is called with account  guest_1576681472380
+client_service /login is called **************
+SELECT name,sex,headimg FROM t_users WHERE userid=448718
+get_message is called with type = notice, version is null
+get_message is called with type = fkgm, version is null
+get_message is called with data  RowDataPacket {
+  type: 'notice',
+  msg: '幼麟游戏，卓越品质，值得信赖',
+  version: '20161128'
+}
+get_message is called with data  RowDataPacket {
+  type: 'fkgm',
+  msg: '幼麟游戏，卓越品质，值得信赖',
+  version: '20161128'
+}

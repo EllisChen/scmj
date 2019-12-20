@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0c37631e-f5ea-4376-9d03-ad466a977ef0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../client/assets/anims/angry.anim" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/anims/angry.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/anims/angry.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/anims/angry.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/anims/dingque_tuijian.anim" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/anims/dingque_tuijian.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/anims/dingque_tuijian.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/anims/dingque_tuijian.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/anims/fennu.anim" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/anims/fennu.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/anims/fennu.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/anims/fennu.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/anims/guafeng.anim" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/anims/guafeng.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/anims/guafeng.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/anims/guafeng.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/anims/han.anim" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/anims/han.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/anims/han.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/anims/han.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/anims/happy.anim" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/anims/happy.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/anims/happy.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/anims/happy.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/anims/huaixiao.anim" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/anims/huaixiao.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/anims/huaixiao.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/anims/huaixiao.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/anims/jiong.anim" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/anims/jiong.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/anims/jiong.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/anims/jiong.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/anims/lihai.anim" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/anims/lihai.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/anims/lihai.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/anims/lihai.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/anims/nv_idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/anims/nv_idle.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/anims/nv_idle.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/anims/nv_idle.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/anims/play_gang.anim" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/anims/play_gang.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/anims/play_gang.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/anims/play_gang.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/anims/play_guafeng.anim" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/anims/play_guafeng.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/anims/play_guafeng.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/anims/play_guafeng.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/anims/play_hu.anim" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/anims/play_hu.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/anims/play_hu.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/anims/play_hu.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/anims/play_peng.anim" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/anims/play_peng.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/anims/play_peng.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/anims/play_peng.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/anims/play_xiayu.anim" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/anims/play_xiayu.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/anims/play_xiayu.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/anims/play_xiayu.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/anims/play_zimo.anim" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/anims/play_zimo.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/anims/play_zimo.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/anims/play_zimo.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/anims/se.anim" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/anims/se.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/anims/se.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/anims/se.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/anims/shaoxiang.anim" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/anims/shaoxiang.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/anims/shaoxiang.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/anims/shaoxiang.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/anims/shihua.anim" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/anims/shihua.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/anims/shihua.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/anims/shihua.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/anims/sleep.anim" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/anims/sleep.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/anims/sleep.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/anims/sleep.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/anims/smile.anim" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/anims/smile.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/anims/smile.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/anims/smile.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/anims/touxiang.anim" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/anims/touxiang.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/anims/touxiang.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/anims/touxiang.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/anims/xiayu.anim" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/anims/xiayu.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/anims/xiayu.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/anims/xiayu.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/anims/yun.anim" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/anims/yun.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/anims/yun.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/anims/yun.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/anims/zhiya.anim" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/anims/zhiya.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/anims/zhiya.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/anims/zhiya.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/babykylin.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/babykylin.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/prefabs/ChuPai.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/prefabs/ChuPai.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/prefabs/ChuPai.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/prefabs/ChuPai.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/prefabs/HistoryItem.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/prefabs/HistoryItem.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/prefabs/HistoryItem.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/prefabs/HistoryItem.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/prefabs/JoinGame.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/prefabs/JoinGame.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/prefabs/JoinGame.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/prefabs/JoinGame.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/prefabs/MyMahJong.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/prefabs/MyMahJong.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/prefabs/MyMahJong.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/prefabs/MyMahJong.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/prefabs/PengGangLeftAndRight.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/prefabs/PengGangLeftAndRight.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/prefabs/PengGangLeftAndRight.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/prefabs/PengGangLeftAndRight.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/prefabs/PengGangMyself.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/prefabs/PengGangMyself.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/prefabs/PengGangMyself.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/prefabs/PengGangMyself.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/prefabs/WaitingConnection.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/prefabs/WaitingConnection.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/prefabs/WaitingConnection.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/prefabs/WaitingConnection.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/prefabs/alert.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/prefabs/alert.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/prefabs/alert.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/prefabs/alert.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/prefabs/emoji.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/prefabs/emoji.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/prefabs/emoji.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/prefabs/emoji.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/prefabs/settings.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/prefabs/settings.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/prefabs/settings.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/prefabs/settings.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/prefabs/userinfo.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/prefabs/userinfo.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/prefabs/userinfo.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/prefabs/userinfo.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/bgFight.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/bgFight.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/bgMain.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/bgMain.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/btnClick.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/btnClick.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/deal.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/deal.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/dropCoin.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/dropCoin.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/fix_msg_1.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/fix_msg_1.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/fix_msg_2.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/fix_msg_2.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/fix_msg_3.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/fix_msg_3.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/fix_msg_4.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/fix_msg_4.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/fix_msg_5.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/fix_msg_5.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/fix_msg_6.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/fix_msg_6.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/fix_msg_7.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/fix_msg_7.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/fix_msg_8.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/fix_msg_8.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/fix_msg_9.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/fix_msg_9.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/give.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/give.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/guafeng.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/guafeng.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/guess/bgm.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/guess/bgm.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/guess/lose.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/guess/lose.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/guess/win.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/guess/win.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/horse/bet.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/horse/bet.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/horse/bgBet.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/horse/bgBet.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/horse/bgRace.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/horse/bgRace.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/horse/go.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/horse/go.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/horse/shutter.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/horse/shutter.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/lose.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/lose.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/1.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/1.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/11.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/11.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/12.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/12.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/13.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/13.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/14.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/14.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/15.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/15.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/16.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/16.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/17.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/17.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/18.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/18.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/19.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/19.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/2.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/2.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/21.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/21.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/22.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/22.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/23.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/23.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/24.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/24.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/25.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/25.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/26.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/26.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/27.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/27.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/28.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/28.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/29.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/29.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/3.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/3.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/31.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/31.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/4.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/4.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/41.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/41.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/5.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/5.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/51.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/51.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/6.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/6.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/61.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/61.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/7.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/7.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/71.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/71.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/8.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/8.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/81.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/81.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/9.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/9.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/91.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/91.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/chi.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/chi.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/gang.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/gang.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/hu.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/hu.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/peng.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/nv/peng.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/rain.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/rain.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/select.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/select.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/shuffle.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/shuffle.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/sort.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/sort.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/timeup_alarm.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/timeup_alarm.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/ui_click.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/ui_click.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/sounds/win.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/sounds/win.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/MJ/bottom/B_bamboo_1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/MJ/bottom/B_bamboo_1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/MJ/bottom/B_bamboo_5.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/MJ/bottom/B_bamboo_5.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/MJ/bottom/Z_bottom.plist.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/MJ/bottom/Z_bottom.plist.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/MJ/bottom/Z_bottom.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/MJ/bottom/Z_bottom.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/MJ/bottom/e_mj_b_up.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/MJ/bottom/e_mj_b_up.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/MJ/left/Z_left.plist.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/MJ/left/Z_left.plist.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/MJ/left/Z_left.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/MJ/left/Z_left.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/MJ/mjEmpty.plist.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/MJ/mjEmpty.plist.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/MJ/mjEmpty.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/MJ/mjEmpty.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/MJ/my/M_character_3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/MJ/my/M_character_3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/MJ/my/Z_my.plist.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/MJ/my/Z_my.plist.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/MJ/my/Z_my.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/MJ/my/Z_my.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/MJ/right/R_character_1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/MJ/right/R_character_1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/MJ/right/Z_right.plist.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/MJ/right/Z_right.plist.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/MJ/right/Z_right.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/MJ/right/Z_right.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/MJRoom/Z_arrow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/MJRoom/Z_arrow.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/MJRoom/Z_arrow_frame.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/MJRoom/Z_arrow_frame.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/MJRoom/Z_arrow_top.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/MJRoom/Z_arrow_top.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/MJRoom/Z_bg_bottom.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/MJRoom/Z_bg_bottom.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/MJRoom/Z_bg_lAr.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/MJRoom/Z_bg_lAr.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/MJRoom/Z_corner_lbottom.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/MJRoom/Z_corner_lbottom.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/MJRoom/Z_corner_ltop.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/MJRoom/Z_corner_ltop.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/MJRoom/Z_corner_rbottom.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/MJRoom/Z_corner_rbottom.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/MJRoom/Z_corner_rtop.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/MJRoom/Z_corner_rtop.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/MJRoom/Z_count_down_num.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/MJRoom/Z_count_down_num.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/MJRoom/Z_help.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/MJRoom/Z_help.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/MJRoom/Z_money_frame.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/MJRoom/Z_money_frame.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/MJRoom/Z_nobody.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/MJRoom/Z_nobody.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/MJRoom/Z_offline.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/MJRoom/Z_offline.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/MJRoom/Z_power.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/MJRoom/Z_power.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/MJRoom/Z_user.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/MJRoom/Z_user.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/MJRoom/Z_wifi.plist.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/MJRoom/Z_wifi.plist.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/MJRoom/powerG.PNG.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/MJRoom/powerG.PNG.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/MJRoom/roundnumbg.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/MJRoom/roundnumbg.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/bk/LOGO.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/bk/LOGO.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/bk/LOGO_mini.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/bk/LOGO_mini.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/bk/bg1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/bk/bg1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/bk/bg2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/bk/bg2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/bk/btn_create_room.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/bk/btn_create_room.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/bk/btn_enter_room.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/bk/btn_enter_room.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/bk/btn_return_room.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/bk/btn_return_room.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/bk/btn_weixin_login.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/bk/btn_weixin_login.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/bk/notice.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/bk/notice.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/bk/nv.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/bk/nv.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/bk/top_bar.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/bk/top_bar.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/chat/Z_chat_bottom_1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/chat/Z_chat_bottom_1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/chat/chat_backbg.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/chat/chat_backbg.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/chat/chat_chick.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/chat/chat_chick.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/chat/chat_easychat.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/chat/chat_easychat.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/chat/chat_easychat1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/chat/chat_easychat1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/chat/chat_emoji.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/chat/chat_emoji.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/chat/chat_emoji1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/chat/chat_emoji1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/chat/chat_emojibg.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/chat/chat_emojibg.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/chat/chat_normol.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/chat/chat_normol.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/chat/chatbg_ld.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/chat/chatbg_ld.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/chat/chatbg_lt.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/chat/chatbg_lt.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/chat/chatbg_rd.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/chat/chatbg_rd.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/chat/emoji_action_texture.plist.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/chat/emoji_action_texture.plist.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/chat/emoji_action_texture.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/chat/emoji_action_texture.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/chat/input.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/chat/input.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/chat/playerinfoline.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/chat/playerinfoline.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/chat/send.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/chat/send.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/chat/send_h.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/chat/send_h.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/chat/yellowBg.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/chat/yellowBg.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/hall/fangkaxiaobeijing.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/hall/fangkaxiaobeijing.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/hall/z_datingtouxiang.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/hall/z_datingtouxiang.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/GameEnd/GameEnd1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/GameEnd/GameEnd1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/GameEnd/GameEnd10.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/GameEnd/GameEnd10.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/GameEnd/GameEnd11.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/GameEnd/GameEnd11.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/GameEnd/GameEnd12.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/GameEnd/GameEnd12.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/GameEnd/GameEnd13.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/GameEnd/GameEnd13.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/GameEnd/GameEnd14.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/GameEnd/GameEnd14.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/GameEnd/GameEnd15.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/GameEnd/GameEnd15.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/GameEnd/GameEnd16.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/GameEnd/GameEnd16.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/GameEnd/GameEnd17.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/GameEnd/GameEnd17.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/GameEnd/GameEnd18.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/GameEnd/GameEnd18.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/GameEnd/GameEnd19.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/GameEnd/GameEnd19.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/GameEnd/GameEnd2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/GameEnd/GameEnd2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/GameEnd/GameEnd20.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/GameEnd/GameEnd20.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/GameEnd/GameEnd21.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/GameEnd/GameEnd21.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/GameEnd/GameEnd22.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/GameEnd/GameEnd22.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/GameEnd/GameEnd3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/GameEnd/GameEnd3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/GameEnd/GameEnd4.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/GameEnd/GameEnd4.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/GameEnd/GameEnd5.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/GameEnd/GameEnd5.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/GameEnd/GameEnd6.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/GameEnd/GameEnd6.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/GameEnd/GameEnd7.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/GameEnd/GameEnd7.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/GameEnd/GameEnd8.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/GameEnd/GameEnd8.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/GameEnd/GameEnd9.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/GameEnd/GameEnd9.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/GameEnd/GameEndHu.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/GameEnd/GameEndHu.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/JoinRoom.plist.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/JoinRoom.plist.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/JoinRoom.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/JoinRoom.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/JoinRoom/Num1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/JoinRoom/Num1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/JoinRoom/Num10.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/JoinRoom/Num10.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/JoinRoom/Num11.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/JoinRoom/Num11.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/JoinRoom/Num12.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/JoinRoom/Num12.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/JoinRoom/Num13.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/JoinRoom/Num13.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/JoinRoom/Num14.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/JoinRoom/Num14.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/JoinRoom/Num15.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/JoinRoom/Num15.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/JoinRoom/Num16.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/JoinRoom/Num16.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/JoinRoom/Num17.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/JoinRoom/Num17.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/JoinRoom/Num18.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/JoinRoom/Num18.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/JoinRoom/Num19.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/JoinRoom/Num19.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/JoinRoom/Num2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/JoinRoom/Num2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/JoinRoom/Num20.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/JoinRoom/Num20.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/JoinRoom/Num21.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/JoinRoom/Num21.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/JoinRoom/Num22.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/JoinRoom/Num22.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/JoinRoom/Num23.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/JoinRoom/Num23.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/JoinRoom/Num24.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/JoinRoom/Num24.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/JoinRoom/Num25.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/JoinRoom/Num25.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/JoinRoom/Num3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/JoinRoom/Num3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/JoinRoom/Num4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/JoinRoom/Num4.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/JoinRoom/Num5.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/JoinRoom/Num5.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/JoinRoom/Num6.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/JoinRoom/Num6.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/JoinRoom/Num7.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/JoinRoom/Num7.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/JoinRoom/Num8.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/JoinRoom/Num8.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/JoinRoom/Num9.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/JoinRoom/Num9.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/Login/bg.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/Login/bg.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/Login/btn_ traveler.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/Login/btn_ traveler.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/Login/btn_checkbox.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/Login/btn_checkbox.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/Login/btn_weixin.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/Login/btn_weixin.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/Login/check_mark.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/Login/check_mark.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/Login/yonghuxieyi.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/Login/yonghuxieyi.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/PopupScene.plist.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/PopupScene.plist.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/PopupScene.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/PopupScene.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/PopupScene/PopupScene1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/PopupScene/PopupScene1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/PopupScene/PopupScene14.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/PopupScene/PopupScene14.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/PopupScene/PopupScene15.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/PopupScene/PopupScene15.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/PopupScene/PopupScene16.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/PopupScene/PopupScene16.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/PopupScene/PopupScene17.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/PopupScene/PopupScene17.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/PopupScene/PopupScene18.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/PopupScene/PopupScene18.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/PopupScene/PopupScene19.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/PopupScene/PopupScene19.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/PopupScene/PopupScene2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/PopupScene/PopupScene2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/PopupScene/PopupScene20.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/PopupScene/PopupScene20.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/PopupScene/PopupScene21.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/PopupScene/PopupScene21.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/PopupScene/PopupScene22.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/PopupScene/PopupScene22.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/PopupScene/PopupScene23.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/PopupScene/PopupScene23.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/PopupScene/PopupScene3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/PopupScene/PopupScene3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/PopupScene/PopupScene5.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/PopupScene/PopupScene5.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/PopupScene/PopupScene6.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/PopupScene/PopupScene6.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/PopupScene/PopupScene7.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/PopupScene/PopupScene7.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/PopupScene/PopupScene8.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/PopupScene/PopupScene8.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/chat.plist.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/chat.plist.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/chat.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/chat.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/createroom.plist.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/createroom.plist.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/createroom.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/createroom.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/createroom/creatroom1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/createroom/creatroom1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/createroom/creatroom10.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/createroom/creatroom10.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/createroom/creatroom11.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/createroom/creatroom11.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/createroom/creatroom12.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/createroom/creatroom12.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/createroom/creatroom13.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/createroom/creatroom13.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/createroom/creatroom14.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/createroom/creatroom14.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/createroom/creatroom15.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/createroom/creatroom15.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/createroom/creatroom16.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/createroom/creatroom16.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/createroom/creatroom17.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/createroom/creatroom17.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/createroom/creatroom18.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/createroom/creatroom18.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/createroom/creatroom19.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/createroom/creatroom19.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/createroom/creatroom2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/createroom/creatroom2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/createroom/creatroom3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/createroom/creatroom3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/createroom/creatroom4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/createroom/creatroom4.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/createroom/creatroom5.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/createroom/creatroom5.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/createroom/creatroom6.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/createroom/creatroom6.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/createroom/creatroom7.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/createroom/creatroom7.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/createroom/creatroom8.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/createroom/creatroom8.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/createroom/creatroom9.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/createroom/creatroom9.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/dingque.plist.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/dingque.plist.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/dingque.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/dingque.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/efx/gang_glow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/efx/gang_glow.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/efx/gang_glow2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/efx/gang_glow2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/efx/guafeng1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/efx/guafeng1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/efx/guafeng2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/efx/guafeng2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/efx/guafeng3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/efx/guafeng3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/efx/guafeng4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/efx/guafeng4.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/efx/guafeng5.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/efx/guafeng5.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/efx/guafeng6.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/efx/guafeng6.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/efx/guafeng7.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/efx/guafeng7.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/efx/hu_glow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/efx/hu_glow.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/efx/hu_glow3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/efx/hu_glow3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/efx/hu_glow4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/efx/hu_glow4.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/efx/peng_glow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/efx/peng_glow.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/efx/peng_glow2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/efx/peng_glow2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/efx/rain1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/efx/rain1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/efx/rain2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/efx/rain2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/efx/rain3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/efx/rain3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/efx/rain4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/efx/rain4.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/efx/rain5.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/efx/rain5.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/efx/rain6.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/efx/rain6.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/efx/zimo_glow2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/efx/zimo_glow2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/history_record.plist.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/history_record.plist.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/history_record.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/history_record.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/loading.plist.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/loading.plist.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/loading.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/loading.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/mahjong_table.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/mahjong_table.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/main_scene.plist.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/main_scene.plist.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/main_scene.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/main_scene.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/playScenesc/nvxiongmao001.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/playScenesc/nvxiongmao001.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/playScenesc/play_scene_4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/playScenesc/play_scene_4.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/playScenesc/play_scene_5.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/playScenesc/play_scene_5.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/playScenesc/play_scene_6.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/playScenesc/play_scene_6.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/playScenesc/sichuan_room_fangxiang.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/playScenesc/sichuan_room_fangxiang.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/playScenesc/sichuan_room_fangxiang_001.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/playScenesc/sichuan_room_fangxiang_001.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/playScenesc/sichuan_room_fangxiang_001_01.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/playScenesc/sichuan_room_fangxiang_001_01.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/playScenesc/sichuan_room_fangxiang_002.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/playScenesc/sichuan_room_fangxiang_002.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/playScenesc/sichuan_room_fangxiang_002_01.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/playScenesc/sichuan_room_fangxiang_002_01.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/playScenesc/sichuan_room_fangxiang_003.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/playScenesc/sichuan_room_fangxiang_003.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/playScenesc/sichuan_room_fangxiang_003_01.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/playScenesc/sichuan_room_fangxiang_003_01.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/playScenesc/sichuan_room_fangxiang_004.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/playScenesc/sichuan_room_fangxiang_004.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/playScenesc/sichuan_room_fangxiang_004_01.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/playScenesc/sichuan_room_fangxiang_004_01.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/playScenesc/sichuan_room_huatong_001.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/playScenesc/sichuan_room_huatong_001.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/playScenesc/sichuan_room_huatong_002.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/playScenesc/sichuan_room_huatong_002.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/playScenesc/sichuan_room_shezhi_001.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/playScenesc/sichuan_room_shezhi_001.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/playScenesc/sichuan_room_shezhi_002.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/playScenesc/sichuan_room_shezhi_002.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/playScenesc/sichuan_room_xiaoxi_001.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/playScenesc/sichuan_room_xiaoxi_001.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/playScenesc/sichuan_room_xiaoxi_002.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/playScenesc/sichuan_room_xiaoxi_002.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/playScenesc/sichuan_zhuang.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/playScenesc/sichuan_zhuang.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/playScenesc/sichuantouxiang002.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/playScenesc/sichuantouxiang002.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/playScenesc/wenzi001.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/playScenesc/wenzi001.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/playScenesc/wenzi002.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/playScenesc/wenzi002.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/playScenesc/wenzi003.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/playScenesc/wenzi003.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/playScenesc/wenzi004.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/playScenesc/wenzi004.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/playScenesc/wenzi005.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/playScenesc/wenzi005.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/play_scene.plist.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/play_scene.plist.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/play_scene.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/play_scene.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/public_ui.plist.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/public_ui.plist.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/public_ui.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/public_ui.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/replayBtn.plist.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/replayBtn.plist.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/replayBtn.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/replayBtn.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/setting.plist.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/setting.plist.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/setting.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/setting.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/status/Z_power.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/status/Z_power.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/status/powerG.PNG.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/status/powerG.PNG.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/status/xinhao1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/status/xinhao1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/status/xinhao2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/status/xinhao2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/status/xinhao3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/status/xinhao3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/status/xinhao4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/status/xinhao4.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/title.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/title.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/unpack.py.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/unpack.py.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/youqingTip.plist.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/youqingTip.plist.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/images/youqingTip.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/images/youqingTip.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/loading/dian1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/loading/dian1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/loading/dian2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/loading/dian2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/loading/dian3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/loading/dian3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/loading/dian4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/loading/dian4.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/loading/dian5.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/loading/dian5.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/loading/dian6.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/loading/dian6.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/loading/load.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/loading/load.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/loading/loading_image.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/loading/loading_image.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/ops/pai_bottom.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/ops/pai_bottom.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/ops/penggang_bottom.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/ops/penggang_bottom.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/png/Z_zhunbeizhuangt.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/png/Z_zhunbeizhuangt.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/png/count_down_num.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/png/count_down_num.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/png/fangkaxiaobeijing.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/png/fangkaxiaobeijing.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/png/money_frame.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/png/money_frame.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/png/room_num.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/png/room_num.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/setting/checkbox_full.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/setting/checkbox_full.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/setting/checkbox_void.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/setting/checkbox_void.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/setting/cr_check_bg.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/setting/cr_check_bg.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/setting/cr_unused.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/setting/cr_unused.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/setting/createroom_check.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/setting/createroom_check.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/setting/titlebg.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/setting/titlebg.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/setting/whitebackground.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/setting/whitebackground.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/setting/z_fuxuan_off.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/setting/z_fuxuan_off.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/setting/z_fuxuan_on.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/setting/z_fuxuan_on.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/voice/adj.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/voice/adj.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/voice/cancel.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/voice/cancel.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/voice/dialog_loading_bg.9.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/voice/dialog_loading_bg.9.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/voice/recorder.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/voice/recorder.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/voice/v1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/voice/v1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/voice/v2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/voice/v2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/voice/v3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/voice/v3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/voice/v4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/voice/v4.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/voice/v5.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/voice/v5.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/voice/v6.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/voice/v6.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/voice/v7.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/voice/v7.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/voice/v_anim1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/voice/v_anim1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/voice/v_anim2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/voice/v_anim2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/voice/v_anim3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/voice/v_anim3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/voice/voice_to_short.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/voice/voice_to_short.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/voice/yuyin_bg.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/voice/yuyin_bg.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/textures/voice/yyDialog.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/textures/voice/yyDialog.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/ver/cv.txt.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/ver/cv.txt.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/ver/project.manifest.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/ver/project.manifest.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/resources/ver/version.manifest.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/resources/ver/version.manifest.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/scenes/createrole.fire" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/scenes/createrole.fire" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/scenes/createrole.fire.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/scenes/createrole.fire.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/scenes/hall.fire" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/scenes/hall.fire" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/scenes/hall.fire.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/scenes/hall.fire.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/scenes/loading.fire" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/scenes/loading.fire" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/scenes/loading.fire.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/scenes/loading.fire.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/scenes/login.fire" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/scenes/login.fire" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/scenes/login.fire.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/scenes/login.fire.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/scenes/mjgame.fire" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/scenes/mjgame.fire" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/scenes/mjgame.fire.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/scenes/mjgame.fire.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/scenes/start.fire" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/scenes/start.fire" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/scenes/start.fire.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/scenes/start.fire.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/scripts/3rdparty/socket-io.js.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/scripts/3rdparty/socket-io.js.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/scripts/AnysdkMgr.js.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/scripts/AnysdkMgr.js.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/scripts/AudioMgr.js.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/scripts/AudioMgr.js.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/scripts/BGScaler.js.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/scripts/BGScaler.js.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/scripts/GameNetMgr.js.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/scripts/GameNetMgr.js.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/scripts/Global.js.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/scripts/Global.js.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/scripts/HTTP.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/scripts/HTTP.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/scripts/HTTP.js.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/scripts/HTTP.js.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/scripts/MahjongMgr.js.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/scripts/MahjongMgr.js.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/scripts/Net.js.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/scripts/Net.js.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/scripts/ReplayMgr.js.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/scripts/ReplayMgr.js.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/scripts/UserMgr.js.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/scripts/UserMgr.js.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/scripts/Utils.js.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/scripts/Utils.js.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/scripts/VoiceMgr.js.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/scripts/VoiceMgr.js.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/scripts/components/Alert.js.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/scripts/components/Alert.js.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/scripts/components/AppStart.js.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/scripts/components/AppStart.js.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/scripts/components/Chat.js.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/scripts/components/Chat.js.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/scripts/components/CheckBox.js.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/scripts/components/CheckBox.js.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/scripts/components/CreateRole.js.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/scripts/components/CreateRole.js.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/scripts/components/CreateRoom.js.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/scripts/components/CreateRoom.js.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/scripts/components/DingQue.js.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/scripts/components/DingQue.js.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/scripts/components/Folds.js.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/scripts/components/Folds.js.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/scripts/components/GameOver.js.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/scripts/components/GameOver.js.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/scripts/components/GameResult.js.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/scripts/components/GameResult.js.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/scripts/components/Hall.js.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/scripts/components/Hall.js.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/scripts/components/History.js.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/scripts/components/History.js.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/scripts/components/HuanSanZhang.js.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/scripts/components/HuanSanZhang.js.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/scripts/components/ImageLoader.js.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/scripts/components/ImageLoader.js.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/scripts/components/JoinGameInput.js.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/scripts/components/JoinGameInput.js.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/scripts/components/LoadingLogic.js.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/scripts/components/LoadingLogic.js.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/scripts/components/Login.js.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/scripts/components/Login.js.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/scripts/components/MJGame.js.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/scripts/components/MJGame.js.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/scripts/components/MJRoom.js.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/scripts/components/MJRoom.js.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/scripts/components/NoticeTip.js.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/scripts/components/NoticeTip.js.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/scripts/components/OnBack.js.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/scripts/components/OnBack.js.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/scripts/components/PengGangs.js.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/scripts/components/PengGangs.js.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/scripts/components/PopupMgr.js.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/scripts/components/PopupMgr.js.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/scripts/components/RadioButton.js.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/scripts/components/RadioButton.js.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/scripts/components/RadioGroupMgr.js.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/scripts/components/RadioGroupMgr.js.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/scripts/components/ReConnect.js.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/scripts/components/ReConnect.js.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/scripts/components/ReplayCtrl.js.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/scripts/components/ReplayCtrl.js.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/scripts/components/Seat.js.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/scripts/components/Seat.js.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/scripts/components/Settings.js.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/scripts/components/Settings.js.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/scripts/components/Status.js.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/scripts/components/Status.js.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/scripts/components/TimePointer.js.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/scripts/components/TimePointer.js.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/scripts/components/UserInfoShow.js.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/scripts/components/UserInfoShow.js.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/scripts/components/Voice.js.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/scripts/components/Voice.js.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/scripts/components/WaitingConnection.js.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/scripts/components/WaitingConnection.js.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/assets/splash.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../client/assets/splash.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/project.json" beforeDir="false" afterPath="$PROJECT_DIR$/../client/project.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/settings/builder.json" beforeDir="false" afterPath="$PROJECT_DIR$/../client/settings/builder.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/settings/project.json" beforeDir="false" afterPath="$PROJECT_DIR$/../client/settings/project.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs_win.js" beforeDir="false" afterPath="$PROJECT_DIR$/configs_win.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fibers/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fibers/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fibers/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fibers/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fibers/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fibers/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fibers/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fibers/bin/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fibers/bin/darwin-ia32-46/fibers.node" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fibers/bin/darwin-ia32-48/fibers.node" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fibers/bin/darwin-x64-46/fibers.node" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fibers/bin/darwin-x64-48/fibers.node" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fibers/bin/linux-ia32-46/fibers.node" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fibers/bin/linux-ia32-48/fibers.node" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fibers/bin/linux-x64-46/fibers.node" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fibers/bin/linux-x64-48/fibers.node" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fibers/bin/repl" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fibers/bin/repl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fibers/bin/win32-ia32-46/fibers.node" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fibers/bin/win32-ia32-48/fibers.node" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fibers/bin/win32-x64-46/fibers.node" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fibers/bin/win32-x64-48/fibers.node" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fibers/binding.gyp" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fibers/binding.gyp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fibers/build.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fibers/build.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fibers/fibers.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fibers/fibers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fibers/future.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fibers/future.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fibers/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fibers/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fibers/quick-test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fibers/quick-test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fibers/src/coroutine.cc" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fibers/src/coroutine.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fibers/src/coroutine.h" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fibers/src/coroutine.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fibers/src/fibers.cc" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fibers/src/fibers.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fibers/src/libcoro/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fibers/src/libcoro/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fibers/src/libcoro/README" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fibers/src/libcoro/README" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fibers/src/libcoro/conftest.c" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fibers/src/libcoro/conftest.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fibers/src/libcoro/coro.c" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fibers/src/libcoro/coro.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fibers/src/libcoro/coro.h" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fibers/src/libcoro/coro.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fibers/src/v8-version.h" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fibers/src/v8-version.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fibers/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fibers/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fibers/test/already-running.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fibers/test/already-running.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fibers/test/bad-context.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fibers/test/bad-context.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fibers/test/child-process.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fibers/test/child-process.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fibers/test/current.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fibers/test/current.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fibers/test/exec.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fibers/test/exec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fibers/test/exit.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fibers/test/exit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fibers/test/fibonacci.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fibers/test/fibonacci.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fibers/test/finish-multiple.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fibers/test/finish-multiple.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fibers/test/future-exception.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fibers/test/future-exception.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fibers/test/future.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fibers/test/future.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fibers/test/illegal-yield.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fibers/test/illegal-yield.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fibers/test/pool.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fibers/test/pool.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fibers/test/process-title.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fibers/test/process-title.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fibers/test/stack-overflow.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fibers/test/stack-overflow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fibers/test/stack-overflow2.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fibers/test/stack-overflow2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fibers/test/started.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fibers/test/started.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fibers/test/unwind.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fibers/test/unwind.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/start_all.sh" beforeDir="false" afterPath="$PROJECT_DIR$/start_all.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/db.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3.game_server.bat">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../client/assets/scripts/3rdparty/socket-io.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/configs_win.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1625">
+              <caret line="65" column="25" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../client/assets/scripts/components/Alert.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../client/assets/scripts/components/AppStart.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../client/assets/scripts/VoiceMgr.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../client/assets/scripts/components/CheckBox.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../client/assets/scripts/components/Chat.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/configs_win.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="480" />
+    <option name="width" value="1400" />
+    <option name="height" value="805" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0c37631e-f5ea-4376-9d03-ad466a977ef0" name="Default Changelist" comment="" />
+      <created>1570013551568</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570013551568</updated>
+      <workItem from="1570013553828" duration="33000" />
+      <workItem from="1570023429377" duration="91000" />
+      <workItem from="1570205066470" duration="4364000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4488000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24983476" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/3.game_server.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../client/assets/scripts/components/CheckBox.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../client/assets/scripts/components/Chat.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../client/assets/scripts/3rdparty/socket-io.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../client/assets/scripts/components/Alert.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../client/assets/scripts/VoiceMgr.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../client/assets/scripts/components/AppStart.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs_win.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1625">
+          <caret line="65" column="25" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
