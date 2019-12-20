@@ -1066,6 +1066,7 @@ exports.setReady = function(userId,callback){
     var game = games[roomId];
     if(game == null){
  console.log('ellis ---------------------------');    
+ console.log('roomInfo. is ', roomInfo);  
  console.log('roomInfo.seats.length is ', roomInfo.seats.length);  
  console.log('NUMBER_PLAYER is ', NUMBER_PLAYER); 
         if(roomInfo.seats.length == NUMBER_PLAYER){
