@@ -23,6 +23,9 @@ function generateRoomId(){
 }
 
 function constructRoomFromDb(dbdata){
+console.log('constructRoomFromDb.dbdata is', dbdata);
+console.log('constructRoomFromDb.dbdata.base_info is', dbdata.base_info);
+console.log('constructRoomFromDb.dbdata.base_info.numberPlayers is', dbdata.base_info.numberPlayers);
 	var roomInfo = {
 		uuid:dbdata.uuid,
 		id:dbdata.id,
@@ -71,7 +74,6 @@ function constructRoomFromDb(dbdata){
 exports.createRoom = function(creator,roomConf,gems,ip,port,callback){
 	
 console.log('------------------ellis  roommgr.createRoom is called, roomConf is', roomConf);	
-console.log('------------------roomConf.playernumber='+roomConf.playernumber);
 	if(
 		roomConf.type == null
 		|| roomConf.difen == null
@@ -131,6 +133,7 @@ console.log('------------------roomConf.playernumber='+roomConf.playernumber);
 				}
 				else{
 					var createTime = Math.ceil(Date.now()/1000);
+					const numberPlayers = NUMBER_PLAYERS_ARR[roomConf.playernumber];
 					var roomInfo = {
 						uuid:"",
 						id:roomId,
@@ -149,7 +152,7 @@ console.log('------------------roomConf.playernumber='+roomConf.playernumber);
 						    tiandihu:roomConf.tiandihu,
 						    maxFan:MAX_FAN[roomConf.zuidafanshu],
 							maxGames:JU_SHU[roomConf.jushuxuanze],
-							numberPlayers:NUMBER_PLAYERS_ARR[roomConf.playernumber],
+							numberPlayers:numberPlayers,
 						    creator:creator,
 						}
 					};
@@ -162,7 +165,7 @@ console.log('------------------roomConf.playernumber='+roomConf.playernumber);
 					}
 					console.log(roomInfo.conf);
 					
-					for(var i = 0; i < NUMBER_PLAYER; ++i){
+					for(var i = 0; i < numberPlayers; ++i){
 						roomInfo.seats.push({
 							userId:0,
 							score:0,

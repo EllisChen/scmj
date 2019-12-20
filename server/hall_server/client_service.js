@@ -127,7 +127,9 @@ app.get('/create_private_room',function(req,res){
 	data.sign = null;
 	var conf = data.conf;
 	console.log('conf is ', conf);
-	console.log('conf.playernumber is =' + conf.playernumber);
+	const confJSON = JSON.parse(conf);
+	console.log('conf.playernumber is =' + confJSON.playernumber);
+	console.log('conf.jushuxuanze is =' + confJSON.jushuxuanze);
 	db.get_user_data(account,function(data){
 		if(data == null){
 			http.send(res,1,"system error");
