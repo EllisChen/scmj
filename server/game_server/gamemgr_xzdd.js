@@ -15,7 +15,7 @@ var ACTION_ZIMO = 6;
 
 var gameSeatsOfUsers = {};
 
-const NUMBER_PLAYER = 2; //麻将玩家数
+var NUMBER_PLAYER = 4; //麻将玩家数
 
 function getMJType(id){
     if(id >= 0 && id < 9){
@@ -118,6 +118,8 @@ function mopai(game,seatIndex) {
 }
 
 function deal(game){
+console.log('deal.game is ', game);
+
     //强制清0
     game.currentIndex = 0;
 
@@ -395,6 +397,8 @@ function sendOperations(game,seatData,pai) {
 }
 
 function moveToNextUser(game,nextSeat){
+console.log('moveToNextUser.game is ' , game);
+
     game.fangpaoshumu = 0;
     //找到下一个没有和牌的玩家
     if(nextSeat == null){
@@ -566,6 +570,8 @@ function computeFanScore(game,fan){
 
 //是否需要查大叫(有两家以上未胡，且有人没有下叫)
 function needChaDaJiao(game){
+
+    console.log('needChaDaJiao game is ', game);
     //查叫
     var numOfHued = 0;
     var numOfTinged = 0;
@@ -880,6 +886,8 @@ function doGameOver(game,userId,forceEnd){
         return;
     }
     var roomInfo = roomMgr.getRoom(roomId);
+console.log('doGameOver.game is ', game);
+console.log('doGameOver.roomInfo is ', roomInfo);
     if(roomInfo == null){
         return;
     }
@@ -1065,10 +1073,10 @@ exports.setReady = function(userId,callback){
 
     var game = games[roomId];
     if(game == null){
- console.log('ellis ---------------------------');    
- console.log('roomInfo. is ', roomInfo);  
- console.log('roomInfo.seats.length is ', roomInfo.seats.length);  
- console.log('NUMBER_PLAYER is ', NUMBER_PLAYER); 
+
+ console.log('setReady.roomInfo. is ', roomInfo);  
+        const numberPlayers = roomInfo.numberPlayers;
+  console.log('setReady.roomInfo. numberPlayers = ', numberPlayers);       
         if(roomInfo.seats.length == NUMBER_PLAYER){
             for(var i = 0; i < roomInfo.seats.length; ++i){
                 var s = roomInfo.seats[i];
@@ -1140,6 +1148,8 @@ function store_single_history(userId,history){
 }
 
 function store_history(roomInfo){
+console.log('store_history.roomInfo is ', roomInfo);
+
     var seats = roomInfo.seats;
     var history = {
         uuid:roomInfo.uuid,
@@ -1163,6 +1173,8 @@ function store_history(roomInfo){
 }
 
 function construct_game_base_info(game){
+console.log('construct_game_base_info.game is ', game);
+
     var baseInfo = {
         type:game.conf.type,
         button:game.button,
@@ -1184,14 +1196,15 @@ function store_game(game,callback){
 //开始新的一局
 exports.begin = function(roomId) {
 
-console.log('ellis ---------- exports.begin');
+console.log('exports.begin.ellis ---------- exports.begin');
 
     var roomInfo = roomMgr.getRoom(roomId);
     if(roomInfo == null){
         return;
     }
     var seats = roomInfo.seats;
-console.log('ellis ---------- exports.begin, seats is ', seats);
+console.log('exports.begin.ellis ---------- exports.begin, seats is ', seats);
+console.log('exports.begin.ellis ---------- exports.begin, roomInfo is ', roomInfo);
     var game = {
         conf:roomInfo.conf,
         roomInfo:roomInfo,
@@ -1298,7 +1311,7 @@ console.log('ellis ---------- exports.begin, seats is ', seats);
 
     var numOfMJ = game.mahjongs.length - game.currentIndex;
     var huansanzhang = roomInfo.conf.hsz;
-console.log('xzdd-1300 seats.length is ', seats.length);
+console.log('exports.begin.xzdd seats.length is ', seats.length);
     for(var i = 0; i < seats.length; ++i){
         //开局时，通知前端必要的数据
         var s = seats[i];
@@ -1487,7 +1500,7 @@ exports.dingQue = function(userId,type){
     }
 
     seatData.que = type;
-    
+  console.log('exports.dingQue.game is', game);  
 
     //检查玩家可以做的动作
     //如果4个人都定缺了，通知庄家出牌
