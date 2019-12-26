@@ -1,4 +1,4 @@
-var NUMBER_PLAYER = 2; //麻将玩家数
+
 cc.Class({
     extends: cc.Component,
 
@@ -96,8 +96,9 @@ cc.Class({
     },
     
     getLocalIndex:function(index){
-        var ret = (index - this.seatIndex + NUMBER_PLAYER) % NUMBER_PLAYER;
-console.log('GameNetMgr.js . getLocalIndex--> index is = ' + index + ' this.seatIndex = ' + this.seatIndex + ' NUMBER_PLAYER = '+NUMBER_PLAYER + ' ret = ' + ret);
+        const numberPlayers = cc.vv.gameNetMgr.conf.numberPlayers;
+        var ret = (index - this.seatIndex + numberPlayers) % numberPlayers;
+console.log('GameNetMgr.js . getLocalIndex--> index is = ' + index + ' this.seatIndex = ' + this.seatIndex + ' numberPlayers = '+numberPlayers + ' ret = ' + ret);
 
         return ret;
     },
@@ -331,7 +332,10 @@ console.log('GameNetMgr.js . getLocalIndex--> index is = ' + index + ' this.seat
             self.button = data.button;
             self.chupai = data.chuPai;
             self.huanpaimethod = data.huanpaimethod;
-            for(var i = 0; i < NUMBER_PLAYER; ++i){
+            const numberPlayers = cc.vv.gameNetMgr.conf.numberPlayers;
+console.log("game_sync_push.cc.vv.gameNetMgr.conf is ", cc.vv.gameNetMgr.conf);
+console.log("game_sync_push.numberPlayers is ", numberPlayers);
+            for(var i = 0; i < numberPlayers; ++i){
                 var seat = self.seats[i];
                 var sd = data.seats[i];
                 seat.holds = sd.holds;

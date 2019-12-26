@@ -1,4 +1,4 @@
-var NUMBER_PLAYER = 2; //麻将玩家数
+
 cc.Class({
     extends: cc.Component,
 
@@ -33,9 +33,10 @@ console.log('Flod.js initView is called******************');
         var game = this.node.getChildByName("game");
         var sides = ["myself","right","up","left"];
 
-        if (NUMBER_PLAYER == 3) {
+        const numberPlayers = cc.vv.gameNetMgr.conf.numberPlayers;
+        if (numberPlayers == 3) {
             sides = ["myself","right","left"];
-        } else if (NUMBER_PLAYER == 2) {
+        } else if (numberPlayers == 2) {
             ["myself","up"];
         }
 

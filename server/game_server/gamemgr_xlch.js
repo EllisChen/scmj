@@ -15,7 +15,6 @@ var ACTION_ZIMO = 6;
 
 var gameSeatsOfUsers = {};
 
-const NUMBER_PLAYER = 2; //麻将玩家数
 
 function getMJType(id){
     if(id >= 0 && id < 9){
@@ -122,9 +121,9 @@ function mopai(game,seatIndex) {
 function deal(game){
     //强制清0
     game.currentIndex = 0;
-
+    const numberPlayers = game.conf.numberPlayers;
     //每人13张 一共 13*4 ＝ 52张 庄家多一张 53张
-    const moPaiShuLiang = 13 * NUMBER_PLAYER ; //摸排的数量 ellis
+    const moPaiShuLiang = 13 * numberPlayers ; //摸排的数量 ellis
     var seatIndex = game.button;
     for(var i = 0; i < moPaiShuLiang; ++i){
         var mahjongs = game.gameSeats[seatIndex].holds;
@@ -134,7 +133,7 @@ function deal(game){
         }
         mopai(game,seatIndex);
         seatIndex ++;
-        seatIndex %= NUMBER_PLAYER;
+        seatIndex %= numberPlayers;
     }
 
     //庄家多摸最后一张
@@ -397,11 +396,12 @@ function sendOperations(game,seatData,pai) {
 }
 
 function moveToNextUser(game,nextSeat){
+    const numberPlayers = game.conf.numberPlayers;
     game.fangpaoshumu = 0;
     //找到下一个没有和牌的玩家
     if(nextSeat == null){
         game.turn ++;
-        game.turn %= NUMBER_PLAYER;
+        game.turn %= numberPlayers;
         return;
     }
     else{
@@ -925,9 +925,9 @@ function doGameOver(game,userId,forceEnd){
     if(roomInfo == null){
         return;
     }
-
+    const numberPlayers = roomInfo.conf.numberPlayers;
     var results = [];
-    var dbresult = new Array(NUMBER_PLAYER);
+    var dbresult = new Array(numberPlayers);
     
     var fnNoticeResult = function(isEnd){
         var endinfo = null;
@@ -1015,7 +1015,7 @@ function doGameOver(game,userId,forceEnd){
             roomInfo.nextButton = game.firstHupai;
         }
         else{
-            roomInfo.nextButton = (game.turn + 1) % NUMBER_PLAYER;
+            roomInfo.nextButton = (game.turn + 1) % numberPlayers;
         }
 
         if(old != roomInfo.nextButton){
@@ -1098,8 +1098,9 @@ exports.setReady = function(userId,callback){
     roomMgr.setReady(userId,true);
 
     var game = games[roomId];
+    const numberPlayers = game.conf.numberPlayers;
     if(game == null){
-        if(roomInfo.seats.length == NUMBER_PLAYER){
+        if(roomInfo.seats.length == numberPlayers){
             for(var i = 0; i < roomInfo.seats.length; ++i){
                 var s = roomInfo.seats[i];
                 if(s.ready == false || userMgr.isOnline(s.userId)==false){
@@ -1124,7 +1125,7 @@ exports.setReady = function(userId,callback){
 
         data.seats = [];
         var seatData = null;
-        for(var i = 0; i < NUMBER_PLAYER; ++i){
+        for(var i = 0; i < numberPlayers; ++i){
             var sd = game.gameSeats[i];
 
             var s = {
@@ -1171,11 +1172,12 @@ function store_single_history(userId,history){
 
 function store_history(roomInfo){
     var seats = roomInfo.seats;
+    
     var history = {
         uuid:roomInfo.uuid,
         id:roomInfo.id,
         time:roomInfo.createTime,
-        seats:new Array(NUMBER_PLAYER)
+        seats:new Array(roomInfo.conf.numberPlayers)
     };
 
     for(var i = 0; i < seats.length; ++i){
@@ -1194,14 +1196,15 @@ function store_history(roomInfo){
 
 
 function construct_game_base_info(game){
+    const numberPlayers = game.conf.numberPlayers;
     var baseInfo = {
         type:game.conf.type,
         button:game.button,
         index:game.gameIndex,
         mahjongs:game.mahjongs,
-        game_seats:new Array(NUMBER_PLAYER)
+        game_seats:new Array(numberPlayers)
     }
-    for(var i = 0; i < NUMBER_PLAYER; ++i){
+    for(var i = 0; i < numberPlayers; ++i){
         baseInfo.game_seats[i] = game.gameSeats[i].holds;
     }
     game.baseInfoJson = JSON.stringify(baseInfo);
@@ -1218,7 +1221,7 @@ exports.begin = function(roomId) {
         return;
     }
     var seats = roomInfo.seats;
-
+    const numberPlayers = roomInfo.conf.numberPlayers;
     var game = {
         conf:roomInfo.conf,
         roomInfo:roomInfo,
@@ -1227,7 +1230,7 @@ exports.begin = function(roomId) {
         button:roomInfo.nextButton,
         mahjongs:new Array(108),
         currentIndex:0,
-        gameSeats:new Array(NUMBER_PLAYER),
+        gameSeats:new Array(numberPlayers),
 
         numOfQue:0,
         turn:0,
@@ -1242,7 +1245,7 @@ exports.begin = function(roomId) {
 
     roomInfo.numOfGames++;
 
-    for(var i = 0; i < NUMBER_PLAYER; ++i){
+    for(var i = 0; i < numberPlayers; ++i){
         var data = game.gameSeats[i] = {};
 
         data.game = game;
@@ -1442,10 +1445,11 @@ exports.huanSanZhang = function(userId,p1,p2,p3){
     var f = Math.random();
     var s = game.gameSeats;
     var huanpaiMethod = 0;
-    if (NUMBER_PLAYER < 4){
+    const numberPlayers = game.conf.numberPlayers;
+    if (numberPlayers < 4){
         //换下家的牌
-        for (var si = 0 ; si < NUMBER_PLAYER; si++) {
-            if (si == NUMBER_PLAYER - 1) { //最后一家
+        for (var si = 0 ; si < numberPlayers; si++) {
+            if (si == numberPlayers - 1) { //最后一家
                 fn(s[si],s[0].huanpais);
             } else {
                 fn(s[si],s[si+1].huanpais);    
@@ -1514,13 +1518,13 @@ exports.dingQue = function(userId,type){
 
     seatData.que = type;
     
-
+    const numberPlayers = game.conf.numberPlayers;
     //检查玩家可以做的动作
     //如果4个人都定缺了，通知庄家出牌
-    if(game.numOfQue == NUMBER_PLAYER){
+    if(game.numOfQue == numberPlayers){
         construct_game_base_info(game);
         
-        var arr = new Array(NUMBER_PLAYER);
+        var arr = new Array(numberPlayers);
         for(var i = 0; i < game.gameSeats.length; ++i){
             arr[i] = game.gameSeats[i].que;
         }
@@ -1686,11 +1690,11 @@ exports.peng = function(userId){
         console.log('you have already hued. no kidding plz.');
         return;
     }
-    
+    const numberPlayers = game.conf.numberPlayers;
     //如果有人可以胡牌，则需要等待
     var i = game.turn;
     while(true){
-        var i = (i + 1)%NUMBER_PLAYER;
+        var i = (i + 1)%numberPlayers;
         if(i == game.turn){
             break;
         }
@@ -1886,8 +1890,9 @@ exports.gang = function(userId,pai){
     
     //如果有人可以胡牌，则需要等待
     var i = game.turn;
+    const numberPlayers = game.conf.numberPlayers;
     while(true){
-        var i = (i + 1)%NUMBER_PLAYER;
+        var i = (i + 1)%numberPlayers;
         if(i == game.turn){
             break;
         }
@@ -2112,14 +2117,14 @@ exports.hu = function(userId){
 
     //通知前端，有人和牌了
     userMgr.broacastInRoom('hu_push',{seatindex:seatIndex,iszimo:isZimo,hupai:notify},seatData.userId,true);
-    
+    const numberPlayers = game.conf.numberPlayers;
     //
     if(game.lastHuPaiSeat == -1){
         game.lastHuPaiSeat = seatIndex;
     }
     else{
-        var lp = (game.lastFangGangSeat - game.turn + NUMBER_PLAYER) % NUMBER_PLAYER;
-        var cur = (seatData.seatIndex - game.turn + NUMBER_PLAYER) % NUMBER_PLAYER;
+        var lp = (game.lastFangGangSeat - game.turn + numberPlayers) % numberPlayers;
+        var cur = (seatData.seatIndex - game.turn + numberPlayers) % numberPlayers;
         if(cur > lp){
             game.lastHuPaiSeat = seatData.seatIndex;
         }

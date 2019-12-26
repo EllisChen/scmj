@@ -1,4 +1,4 @@
-var NUMBER_PLAYER = 2; //麻将玩家数
+
 cc.Class({
     extends: cc.Component,
 
@@ -52,11 +52,12 @@ console.log('MJRoom.js initView is called******************');
         var gameChild = this.node.getChildByName("game");
         //var sides = ["myself","right","up","left"];
         var sides = null;
-        if (NUMBER_PLAYER == 4) {
+        const numberPlayers = cc.vv.gameNetMgr.conf.numberPlayers;
+        if (numberPlayers == 4) {
             sides = ["myself","right","up","left"];
-        }else if (NUMBER_PLAYER == 3) {
+        }else if (numberPlayers == 3) {
             sides = ["myself","right","left"];
-        } else if (NUMBER_PLAYER == 2) {
+        } else if (numberPlayers == 2) {
             sides = ["myself","up"];
         }
         for(var i = 0; i < sides.length; ++i){

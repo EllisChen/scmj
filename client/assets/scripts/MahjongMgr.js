@@ -1,4 +1,4 @@
-var NUMBER_PLAYER = 2; //麻将玩家数
+
 var mahjongSprites = [];
 
 cc.Class({
@@ -55,15 +55,18 @@ cc.Class({
         if(cc.vv == null){
             return;
         }
-        if (NUMBER_PLAYER == 4) {
+        const numberPlayers = cc.vv.gameNetMgr.conf.numberPlayers;
+        console.log('MahjongMgr.js  onLoad cc.vv.gameNetMgr.conf is ', cc.vv.gameNetMgr.conf);
+        console.log('MahjongMgr.js  onLoad numberPlayers is ', numberPlayers);
+        if (numberPlayers == 4) {
             this._sides = ["myself","right","up","left"];
             this._pres = ["M_","R_","B_","L_"];
             this._foldPres = ["B_","R_","B_","L_"];
-        } else if (NUMBER_PLAYER == 3) {
+        } else if (numberPlayers == 3) {
             this._sides = ["myself","right","left"];
             this._pres = ["M_","R_","L_"];
             this._foldPres = ["B_","R_","L_"];
-        } else if (NUMBER_PLAYER == 2) {
+        } else if (numberPlayers == 2) {
             this._sides = ["myself","up"];
             this._pres = ["M_","B_"];
             this._foldPres = ["B_","B_"];

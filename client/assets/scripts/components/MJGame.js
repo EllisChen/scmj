@@ -1,4 +1,4 @@
-var NUMBER_PLAYER = 2; //麻将玩家数
+
 cc.Class({
     extends: cc.Component,
 
@@ -82,13 +82,15 @@ cc.Class({
         //var realwidth = this.node.width;
         //myholds.scaleX *= realwidth/1280;
         //myholds.scaleY *= realwidth/1280;  
-        
+        console.log('MJGame.js initView is called cc.vv.gameNetMgr.conf is', cc.vv.gameNetMgr.conf);
+        const numberPlayers = cc.vv.gameNetMgr.conf.numberPlayers;
+        console.log('MJGame.js initView is called cc.vv.gameNetMgr.conf.numberPlayers is', numberPlayers);
         var sides = null;
-        if (NUMBER_PLAYER == 4) {
+        if (numberPlayers == 4) {
             sides = ["myself","right","up","left"];
-        }else if (NUMBER_PLAYER == 3) {
+        }else if (numberPlayers == 3) {
             sides = ["myself","right","left"];
-        } else if (NUMBER_PLAYER == 2) {
+        } else if (numberPlayers == 2) {
             sides = ["myself","up"];
         }
 
@@ -561,12 +563,14 @@ console.log('MJGame.js onGameBeign is called....cc.vv.gameNetMgr.seats.length is
             }
         }
         
+        const numberPlayers = cc.vv.gameNetMgr.conf.numberPlayers;
+        console.log('MJGame.js onGameBeign is called....numberPlayers is : ', numberPlayers);
         this.hideChupai();
         this.hideOptions();
         var sides = ["right","up","left"];   
-        if (NUMBER_PLAYER === 3) {
+        if (numberPlayers === 3) {
             sides = ["right", "left"];   
-        } else if (NUMBER_PLAYER === 2) {
+        } else if (numberPlayers === 2) {
             sides = ["up"];  
         }     
 
@@ -582,10 +586,10 @@ console.log('MJGame.js onGameBeign is called....cc.vv.gameNetMgr.seats.length is
                 nc.scaleX = 1.0;
                 nc.scaleY = 1.0;
                 var sprite = nc.getComponent(cc.Sprite); 
-                if (NUMBER_PLAYER === 2) {
+                if (numberPlayers === 2) {
                     //显示排的方向
                     sprite.spriteFrame = cc.vv.mahjongmgr.holdsEmpty[i+2];     
-                } else if (NUMBER_PLAYER === 3) {
+                } else if (numberPlayers === 3) {
                     if(i == 0) {
                         sprite.spriteFrame = cc.vv.mahjongmgr.holdsEmpty[i+1];
                     } else {
@@ -603,10 +607,10 @@ console.log('MJGame.js onGameBeign is called....cc.vv.gameNetMgr.seats.length is
 
         this.gameRoot.active = true;
        
-        if (NUMBER_PLAYER === 3) {
+        if (numberPlayers === 3) {
             var upContainer = gameChild.getChildByName("up");
             upContainer.active = false;
-        } else if (NUMBER_PLAYER === 2) {
+        } else if (numberPlayers === 2) {
             var rightContainer = gameChild.getChildByName("right");
             rightContainer.active = false;
 
@@ -899,7 +903,10 @@ console.log('MJGame.js onGameBeign is called....cc.vv.gameNetMgr.seats.length is
     },
     
     getLocalIndex:function(index){
-        var ret = (index - cc.vv.gameNetMgr.seatIndex + NUMBER_PLAYER) % NUMBER_PLAYER;
+        const numberPlayers = cc.vv.gameNetMgr.conf.numberPlayers;
+        console.log("getLocalIndex....cc.vv.gameNetMgr.conf is ", cc.vv.gameNetMgr.conf);
+        console.log("getLocalIndex....cc.vv.gameNetMgr.conf.numberPlayers is ", numberPlayers);
+        var ret = (index - cc.vv.gameNetMgr.seatIndex + numberPlayers) % numberPlayers;
         //console.log("old:" + index + ",base:" + cc.vv.gameNetMgr.seatIndex + ",new:" + ret);
         return ret;
     },

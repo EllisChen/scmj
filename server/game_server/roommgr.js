@@ -12,8 +12,6 @@ var JU_SHU = [4,8];
 var JU_SHU_COST = [2,3];
 var NUMBER_PLAYERS_ARR = [4,3,2];
 
-const NUMBER_PLAYER = 2; //麻将玩家数
-
 function generateRoomId(){
 	var roomId = "";
 	for(var i = 0; i < 6; ++i){
@@ -25,15 +23,18 @@ function generateRoomId(){
 function constructRoomFromDb(dbdata){
 console.log('constructRoomFromDb.dbdata is', dbdata);
 console.log('constructRoomFromDb.dbdata.base_info is', dbdata.base_info);
-console.log('constructRoomFromDb.dbdata.base_info.numberPlayers is', dbdata.base_info.numberPlayers);
+
+	const confJSON = JSON.parse(dbdata.base_info);
+	const numberPlayers = confJSON.numberPlayers;
+	console.log('constructRoomFromDb.dbdata.base_info.numberPlayers is', numberPlayers);
 	var roomInfo = {
 		uuid:dbdata.uuid,
 		id:dbdata.id,
 		numOfGames:dbdata.num_of_turns,
 		createTime:dbdata.create_time,
 		nextButton:dbdata.next_button,
-		seats:new Array(NUMBER_PLAYER),
-		conf:JSON.parse(dbdata.base_info)
+		seats:new Array(numberPlayers),
+		conf:confJSON
 	};
 
 
@@ -45,7 +46,7 @@ console.log('constructRoomFromDb.dbdata.base_info.numberPlayers is', dbdata.base
 	}
 	var roomId = roomInfo.id;
 
-	for(var i = 0; i < NUMBER_PLAYER; ++i){
+	for(var i = 0; i < numberPlayers; ++i){
 		var s = roomInfo.seats[i] = {};
 		s.userId = dbdata["user_id" + i];
 		s.score = dbdata["user_score" + i];
@@ -74,6 +75,20 @@ console.log('constructRoomFromDb.dbdata.base_info.numberPlayers is', dbdata.base
 exports.createRoom = function(creator,roomConf,gems,ip,port,callback){
 	
 console.log('------------------ellis  roommgr.createRoom is called, roomConf is', roomConf);	
+/** roomConf:
+{ difen: 0,
+	zimo: 1,
+	jiangdui: true,
+	huansanzhang: false,
+	zuidafanshu: 2,
+	jushuxuanze: 1,
+	dianganghua: 1,
+	menqing: false,
+	tiandihu: true,
+	playernumber: 1,
+	type: 'xzdd' }
+ */
+
 	if(
 		roomConf.type == null
 		|| roomConf.difen == null
@@ -210,8 +225,8 @@ exports.destroy = function(roomId){
 	if(roomInfo == null){
 		return;
 	}
-
-	for(var i = 0; i < NUMBER_PLAYER; ++i){
+	const numberPlayers = roomInfo.conf.numberPlayers;
+	for(var i = 0; i < numberPlayers; ++i){
 		var userId = roomInfo.seats[i].userId;
 		if(userId > 0){
 			delete userLocation[userId];
@@ -249,8 +264,8 @@ exports.enterRoom = function(roomId,userId,userName,callback){
 			//已存在
 			return 0;
 		}
-
-		for(var i = 0; i < NUMBER_PLAYER; ++i){
+        const numberPlayers = room.conf.numberPlayers;
+		for(var i = 0; i < numberPlayers; ++i){
 			var seat = room.seats[i];
 			if(seat.userId <= 0){
 				seat.userId = userId;

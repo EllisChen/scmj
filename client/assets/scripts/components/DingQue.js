@@ -1,4 +1,4 @@
-var NUMBER_PLAYER = 2; //麻将玩家数
+
 cc.Class({
     extends: cc.Component,
 
@@ -35,13 +35,14 @@ cc.Class({
         this.queYiMen = gameChild.getChildByName("dingque");
         this.queYiMen.active = cc.vv.gameNetMgr.isDingQueing;
         
+        const numberPlayers = cc.vv.gameNetMgr.conf.numberPlayers;
         //var arr = ["myself","right","up","left"];
         var arr = null;
-        if (NUMBER_PLAYER == 4) {
+        if (numberPlayers == 4) {
             arr = ["myself","right","up","left"];
-        }else if (NUMBER_PLAYER == 3) {
+        }else if (numberPlayers == 3) {
             arr = ["myself","right","left"];
-        } else if (NUMBER_PLAYER == 2) {
+        } else if (numberPlayers == 2) {
             arr = ["myself","up"];
         }
         for(var i = 0; i < arr.length; ++i){

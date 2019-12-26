@@ -1,4 +1,4 @@
-var NUMBER_PLAYER =2; //麻将玩家数
+
 cc.Class({
     extends: cc.Component,
 
@@ -48,7 +48,8 @@ cc.Class({
         wanfa.string = cc.vv.gameNetMgr.getWanfa();
         
         var listRoot = this._gameover.getChildByName("result_list");
-        for(var i = 1; i <= NUMBER_PLAYER; ++i){
+        const numberPlayers = cc.vv.gameNetMgr.conf.numberPlayers;
+        for(var i = 1; i <= numberPlayers; ++i){
             var s = "s" + i;
             var sn = listRoot.getChildByName(s);
             var viewdata = {};
@@ -94,12 +95,15 @@ cc.Class({
 
         var listRoot = this._gameover.getChildByName("result_list"); 
 console.log('-----------------------> onGameOver_XZDD listRoot is ', listRoot);
-        if (NUMBER_PLAYER === 3) {
+console.log('-----------------------> onGameOver_XZDD cc.vv.gameNetMgr.conf is ', cc.vv.gameNetMgr.conf);
+        const numberPlayers = cc.vv.gameNetMgr.conf.numberPlayers;
+console.log('-----------------------> onGameOver_XZDD cc.vv.gameNetMgr.conf.numberPlayers is ', cc.vv.gameNetMgr.conf.numberPlayers);
+        if (numberPlayers === 3) {
             var s4Node = listRoot.getChildByName('s4');
             if (s4Node) {
                 s4Node.active = false;
             }
-        } else if (NUMBER_PLAYER === 2) {
+        } else if (numberPlayers === 2) {
             var s4Node = listRoot.getChildByName('s4');
             console.log('-----------------------> onGameOver_XZDD s4Node is ', s4Node);
             if (s4Node) {
@@ -129,9 +133,9 @@ console.log('-----------------------> onGameOver_XZDD listRoot is ', listRoot);
             this._pingju.active = true;
         }
         
-            
+        const numberPlayers = cc.vv.gameNetMgr.conf.numberPlayers;
         //显示玩家信息
-        for(var i = 0; i < NUMBER_PLAYER; ++i){
+        for(var i = 0; i < numberPlayers; ++i){
             var seatView = this._seats[i];
             var userData = data[i];
             var hued = false;
@@ -363,12 +367,15 @@ console.log('-----------------------> onGameOver_XZDD listRoot is ', listRoot);
 
         var listRoot = this._gameover.getChildByName("result_list"); 
         console.log('-----------------------> onGameOver_XLCH listRoot is ', listRoot);
-        if (NUMBER_PLAYER === 3) {
+        console.log('-----------------------> onGameOver_XLCH cc.vv.gameNetMgr.conf is ', cc.vv.gameNetMgr.conf);
+        const numberPlayers = cc.vv.gameNetMgr.conf.numberPlayers;
+        console.log('-----------------------> onGameOver_XLCH cc.vv.gameNetMgr.conf.numberPlayers is ', numberPlayers);
+        if (numberPlayers === 3) {
             var s4Node = listRoot.getChildByName('s4');
             if (s4Node) {
                 s4Node.active = false;
             }
-        } else if (NUMBER_PLAYER === 2) {
+        } else if (numberPlayers === 2) {
             var s4Node = listRoot.getChildByName('s4');
             console.log('-----------------------> onGameOver_XLCH s4Node is ', s4Node);
             if (s4Node) {
@@ -400,7 +407,7 @@ console.log('-----------------------> onGameOver_XZDD listRoot is ', listRoot);
         }
             
         //显示玩家信息
-        for(var i = 0; i < NUMBER_PLAYER; ++i){
+        for(var i = 0; i < numberPlayers; ++i){
             var seatView = this._seats[i];
             var userData = data[i];
             var hued = false;
