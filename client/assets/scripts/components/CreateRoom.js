@@ -36,8 +36,11 @@ cc.Class({
     },
 
     onBtnOK: function () {
+
+        console.log('onBtnOK is called');
         var usedTypes = ['xzdd', 'xlch'];
         var type = this.getType();
+        console.log('onBtnOK is called type  = ' + type); 
         if (usedTypes.indexOf(type) == -1) {
             return;
         }

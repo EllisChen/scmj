@@ -188,6 +188,7 @@ cc.Class({
     },
     
     onJoinGameClicked:function(){
+        console.log("onJoinGameClicked 123");
         this.joinGameWin.active = true;
     },
     
@@ -204,11 +205,13 @@ cc.Class({
     },
     
     onClicked:function(){
+        console.log("onClicked");
+        console.log("onClicked, cc.vv.gameNetMgr.roomId = " + cc.vv.gameNetMgr.roomId);
         if(cc.vv.gameNetMgr.roomId != null){
             cc.vv.alert.show("提示","房间已经创建!\n必须解散当前房间才能创建新的房间");
             return;
         }
-        console.log("onClicked");
+        
         this.createRoomWin.active = true;   
     },
     

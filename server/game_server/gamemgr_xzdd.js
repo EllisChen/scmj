@@ -1074,8 +1074,8 @@ exports.setReady = function(userId,callback){
     var game = games[roomId];
     if(game == null){
 
- console.log('setReady.roomInfo. is ', roomInfo);  
-        const numberPlayers = roomInfo.numberPlayers;
+ console.log('setReady.roomInfo.is', roomInfo);  
+        const numberPlayers = roomInfo.conf.numberPlayers;
   console.log('setReady.roomInfo. numberPlayers = ', numberPlayers);       
         if(roomInfo.seats.length == NUMBER_PLAYER){
             for(var i = 0; i < roomInfo.seats.length; ++i){
