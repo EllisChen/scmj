@@ -350,7 +350,7 @@ exports.create_user = function(account,name,coins,gems,sex,headimg,callback){
     }
     else{
         //headimg = 'null';
-        headimg = 'http://ellis-test.oss-cn-chengdu.aliyuncs.com/1765357aa60caab205c522a2773e7b9a_adminstor.jpg';
+        headimg = '"' + 'http://ellis-test.oss-cn-chengdu.aliyuncs.com/1765357aa60caab205c522a2773e7b9a_adminstor.jpg' + '"' ;
     }
     name = crypto.toBase64(name);
     var userId = generateUserId();

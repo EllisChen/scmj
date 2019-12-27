@@ -47,9 +47,10 @@ function getBaseInfo(userid,callback){
         cc.vv.http.sendRequest('/base_info',{userid:userid},function(ret){
             var url = null;
             if(ret.headimgurl){
-               //url = cc.vv.http.master_url + '/image?url=' + encodeURIComponent(ret.headimgurl) + ".jpg";
-               url = cc.vv.http.master_url + '/image?url=' + encodeURIComponent(ret.headimgurl) ;
+               url = cc.vv.http.master_url + '/image?url=' + encodeURIComponent(ret.headimgurl) + ".jpg";
+               //url = cc.vv.http.master_url + '/image?url=' + encodeURIComponent(ret.headimgurl) ;
             }
+            console.log('headuRL is ' + url);
             var info = {
                 name:ret.name,
                 sex:ret.sex,
