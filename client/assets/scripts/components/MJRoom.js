@@ -53,6 +53,9 @@ console.log('MJRoom.js initView is called******************');
         //var sides = ["myself","right","up","left"];
         var sides = null;
         const numberPlayers = cc.vv.gameNetMgr.conf.numberPlayers;
+console.log('MJRoom.js initView is called cc.vv.gameNetMgr.conf is ', cc.vv.gameNetMgr.conf);
+console.log('MJRoom.js initView is called numberPlayers is ', numberPlayers);
+
         if (numberPlayers == 4) {
             sides = ["myself","right","up","left"];
         }else if (numberPlayers == 3) {

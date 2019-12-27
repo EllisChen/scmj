@@ -34,6 +34,8 @@ console.log('Flod.js initView is called******************');
         var sides = ["myself","right","up","left"];
 
         const numberPlayers = cc.vv.gameNetMgr.conf.numberPlayers;
+console.log('Flod.js initView is called cc.vv.gameNetMgr.conf is', cc.vv.gameNetMgr.conf);
+console.log('Flod.js initView is called numberPlayers is', numberPlayers);
         if (numberPlayers == 3) {
             sides = ["myself","right","left"];
         } else if (numberPlayers == 2) {

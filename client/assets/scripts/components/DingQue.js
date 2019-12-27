@@ -36,6 +36,8 @@ cc.Class({
         this.queYiMen.active = cc.vv.gameNetMgr.isDingQueing;
         
         const numberPlayers = cc.vv.gameNetMgr.conf.numberPlayers;
+        console.log('DingQue.js initView is called cc.vv.gameNetMgr.conf is ', cc.vv.gameNetMgr.conf);
+        console.log('DingQue.js initView is called numberPlayers is ', numberPlayers);
         //var arr = ["myself","right","up","left"];
         var arr = null;
         if (numberPlayers == 4) {

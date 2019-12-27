@@ -170,6 +170,59 @@ console.log('GameNetMgr.js . getLocalIndex--> index is = ' + index + ' this.seat
         var self = this;
         cc.vv.net.addHandler("login_result",function(data){
             console.log('GameNetMgr.js.initHandlers --> data is : ', data);
+            /**
+             * 
+             * 
+             * {errcode: 0, errmsg: "ok", data: {…}}
+errcode: 0
+errmsg: "ok"
+data:
+roomid: "373312"
+conf:{
+type: "xzdd"
+baseScore: 1
+zimo: 0
+jiangdui: false
+hsz: false
+dianganghua: 0
+menqing: false
+tiandihu: false
+maxFan: 4
+maxGames: 4
+numberPlayers: 2
+creator: 310026
+__proto__: Object
+numofgames: 0
+}
+seats: (2) [{…}, {…}]
+__proto__: Object
+__proto__: Object
+
+
+seats: {
+
+    0: {userid: 310026, ip: "::ffff:182.150.24.71", score: 1, name: "夏侯稳赢", online: true, …}
+1:
+userid: 939830
+ip: "::ffff:182.150.24.71"
+score: -1
+name: "长孙自摸"
+online: true
+ready: false
+seatindex: 1
+folds: []
+pengs: []
+angangs: []
+diangangs: []
+wangangs: []
+dingque: -1
+holds: []
+hued: false
+huanpais: null
+}
+
+
+             */
             if(data.errcode === 0){
                 var data = data.data;
                 self.roomId = data.roomid;
@@ -651,7 +704,19 @@ console.log("game_sync_push.numberPlayers is ", numberPlayers);
     connectGameServer:function(data){
         this.dissoveData = null;
         cc.vv.net.ip = data.ip + ":" + data.port;
-        console.log('connectGameServer is called with ' + cc.vv.net.ip);
+        /*//connectGameServer is called with 112.74.43.192:10000
+        //console.log('connectGameServer is called with ' + cc.vv.net.ip);
+        //data here is 
+        {
+            roomid:roomId,
+            ip:enterInfo.ip,
+            port:enterInfo.port,
+            token:enterInfo.token,
+            time:Date.now(),
+            sign: sign
+        };
+
+        */
         var self = this;
 
         var onConnectOK = function(){
