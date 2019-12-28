@@ -92,14 +92,12 @@ cc.Class({
     },
     
     getSelfData:function(){
-        return this.seats[this.seatIndex];
+        return this.seats[this.seatIndex]; //seatIndex 逻辑顺序
     },
     
     getLocalIndex:function(index){
         const numberPlayers = cc.vv.gameNetMgr.conf.numberPlayers;
-        var ret = (index - this.seatIndex + numberPlayers) % numberPlayers;
-console.log('GameNetMgr.js . getLocalIndex--> index is = ' + index + ' this.seatIndex = ' + this.seatIndex + ' numberPlayers = '+numberPlayers + ' ret = ' + ret);
-
+        var ret = (index + numberPlayers - this.seatIndex) % numberPlayers;
         return ret;
     },
     

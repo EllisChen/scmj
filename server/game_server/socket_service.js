@@ -363,7 +363,7 @@ console.log('in socket-service.js is called data is ', data);
 					time:ramaingTime,
 					states:dr.states
 				}
-				console.log(5);
+				//console.log(5);
 				userMgr.broacastInRoom('dissolve_notice_push',data,userId,true);
 			}
 			console.log(6);

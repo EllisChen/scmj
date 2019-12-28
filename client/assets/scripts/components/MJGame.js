@@ -12,6 +12,7 @@ cc.Class({
             default:null,
             type:cc.Node   
         },
+        holdsmask: cc.Node,
         
         _myMJArr:[],
         _options:null,
@@ -121,6 +122,7 @@ cc.Class({
 
     start:function(){
         this.checkIp();
+        this.checkDisplayMask(3);
     },
 
     checkIp:function(){
@@ -230,6 +232,29 @@ cc.Class({
         }        
     },
     
+    hiddenHoldsMask:function(){
+        if (this.holdsmask.active === true ) {
+            this.holdsmask.active = false;  
+        }
+    },
+
+    displayHoldsMask:function(queNumbersInHolds){
+        console.log('displayHoldsMask is called with queNumbersInHolds = ' + queNumbersInHolds);
+        this.holdsmask.width = (13 - queNumbersInHolds ) * 75;  
+        this.holdsmask.active = true;      
+        console.log('this.holdsmask.active is = ', this.holdsmask.active);
+        console.log('this.holdsmask.node name is = ', this.holdsmask.name);
+    },
+
+    checkDisplayMask(queNumbersInHolds) {
+        console.log('checkDisplayMask is called with queNumbersInHolds = ' + queNumbersInHolds);
+        if (queNumbersInHolds <= 0){
+            this.hiddenHoldsMask();
+        } else {
+            this.displayHoldsMask(queNumbersInHolds);
+        }
+    },
+
     initEventHandlers:function(){
         cc.vv.gameNetMgr.dataEventHandler = this.node;
         
@@ -271,6 +296,8 @@ cc.Class({
         });
         
         this.node.on('game_mopai',function(data){
+
+            self.checkDisplayMask(3);
             self.hideChupai();
             var pai = data.pai;
             var localIndex = cc.vv.gameNetMgr.getLocalIndex(data.seatIndex);

@@ -49,13 +49,35 @@ cc.Class({
         if(!this._arrow.active){
             return;
         }
-        var turn = cc.vv.gameNetMgr.turn;
-        var localIndex = cc.vv.gameNetMgr.getLocalIndex(turn);
-console.log('TimePointer.js initPointer localIndex = ' + localIndex + ' turn = ' + turn);
-console.log('TimePointer.js initPointer this._pointer.children.length = ' + this._pointer.children.length);
-        for(var i = 0; i < this._pointer.children.length; ++i){
-            this._pointer.children[i].active = i == localIndex;
+        var turn = cc.vv.gameNetMgr.turn; //当前该谁出牌
+        var localIndex = cc.vv.gameNetMgr.getLocalIndex(turn); //
+        const numberPlayers = cc.vv.gameNetMgr.conf.numberPlayers;
+
+        if (numberPlayers === 4) {
+            for(var i = 0; i < this._pointer.children.length; ++i){
+                this._pointer.children[i].active = i == localIndex;
+            }
+        } else {
+            for(var i = 0; i < this._pointer.children.length; ++i){
+                this._pointer.children[i].active = false;
+            }
+            if (numberPlayers === 2) {
+                if (localIndex === 0) {
+                    this._pointer.children[0].active = true;
+                } else if (localIndex === 1) {
+                    this._pointer.children[2].active = true;
+                }
+            } else if (numberPlayers === 3) {
+                if (localIndex === 0) {
+                    this._pointer.children[0].active = true;
+                } else if (localIndex === 1) {
+                    this._pointer.children[1].active = true;
+                } else if (localIndex === 2) {
+                    this._pointer.children[3].active = true;
+                }
+            }
         }
+        
     },
     
     // called every frame, uncomment this function to activate update callback
