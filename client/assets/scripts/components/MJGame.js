@@ -58,7 +58,7 @@ cc.Class({
     },
     
     initView:function(){
-  console.log('MJGame.js initView is called *************');
+  //console.log('MJGame.js initView is called *************');
         //搜索需要的子节点
         var gameChild = this.node.getChildByName("game");
         
@@ -74,6 +74,9 @@ cc.Class({
         this._chupaidrag.active = false;
         
         for(var i = 0; i < myholds.children.length; ++i){
+            if (myholds.children[i].name === 'masknode') {
+                continue;
+            }
             var sprite = myholds.children[i].getComponent(cc.Sprite);
             this._myMJArr.push(sprite);
             sprite.spriteFrame = null;
@@ -83,9 +86,7 @@ cc.Class({
         //var realwidth = this.node.width;
         //myholds.scaleX *= realwidth/1280;
         //myholds.scaleY *= realwidth/1280;  
-        console.log('MJGame.js initView is called cc.vv.gameNetMgr.conf is', cc.vv.gameNetMgr.conf);
         const numberPlayers = cc.vv.gameNetMgr.conf.numberPlayers;
-        console.log('MJGame.js initView is called cc.vv.gameNetMgr.conf.numberPlayers is', numberPlayers);
         var sides = null;
         if (numberPlayers == 4) {
             sides = ["myself","right","up","left"];
@@ -122,7 +123,6 @@ cc.Class({
 
     start:function(){
         this.checkIp();
-        this.checkDisplayMask(3);
     },
 
     checkIp:function(){
@@ -161,11 +161,19 @@ cc.Class({
                 return;
             }
             node.interactable = node.getComponent(cc.Button).interactable;
+            console.log('cc.Node.EventType.TOUCH_START node.interactable is ' + node.interactable);
             if (!node.interactable) {
                 return;
             }
+
             node.opacity = 255;
+            //console.log('cc.Node.EventType.TOUCH_START event.getLocationX() is ' + event.getLocationX());
+            //console.log('cc.Node.EventType.TOUCH_START event.getLocationY() is ' + event.getLocationY());
+            //console.log('cc.Node.EventType.TOUCH_START this.node.width is ' + this.node.width);
+            //console.log('cc.Node.EventType.TOUCH_START this.node.height is ' + this.node.height);
+            //console.log('cc.Node.EventType.TOUCH_START event is ', event);
             this._chupaidrag.active = false;
+
             this._chupaidrag.getComponent(cc.Sprite).spriteFrame = node.getComponent(cc.Sprite).spriteFrame;
             this._chupaidrag.x = event.getLocationX() - this.node.width / 2;
             this._chupaidrag.y = event.getLocationY() - this.node.height / 2;
@@ -193,13 +201,13 @@ cc.Class({
         }.bind(this));
 
         node.on(cc.Node.EventType.TOUCH_END, function (event) {
+            console.log('cc.Node.EventType.TOUCH_END turn is ' + cc.vv.gameNetMgr.turn + ', seatIndex is ' + cc.vv.gameNetMgr.seatIndex);
             if (cc.vv.gameNetMgr.turn != cc.vv.gameNetMgr.seatIndex) {
                 return;
             }
             if (!node.interactable) {
                 return;
-            }
-            console.log("cc.Node.EventType.TOUCH_END");
+            }    
             this._chupaidrag.active = false;
             node.opacity = 255;
             if (event.getLocationY() >= 200) {
@@ -238,20 +246,65 @@ cc.Class({
         }
     },
 
-    displayHoldsMask:function(queNumbersInHolds){
-        console.log('displayHoldsMask is called with queNumbersInHolds = ' + queNumbersInHolds);
-        this.holdsmask.width = (13 - queNumbersInHolds ) * 75;  
-        this.holdsmask.active = true;      
-        console.log('this.holdsmask.active is = ', this.holdsmask.active);
-        console.log('this.holdsmask.node name is = ', this.holdsmask.name);
+    displayHoldsMask:function(holdsLength, queNumbersInHolds, mopaiIsQue){
+        //holdsLength=14
+        console.log('displayHoldsMask holdsLength = ' + holdsLength + ', queNumbersInHolds : ' + queNumbersInHolds + 'mopaiIsQue is ' + mopaiIsQue);
+        const x = 366 - (holdsLength - 2) * 75;
+        this.holdsmask.x = x;   
+        
+        var width = 0;
+        if (mopaiIsQue) {//摸起来的牌就是缺的牌
+            width = (holdsLength - queNumbersInHolds) * 75; 
+        } else {
+            width = (holdsLength - 1 - queNumbersInHolds) * 75; 
+        }
+        /*
+        if (queNumbersInHolds === 1) {
+            if (mopaiIsQue) {//摸起来的牌就是缺的牌
+                width = (holdsLength - 1) * 75; 
+            } else {
+                width = (holdsLength - 2 )* 75;
+            }
+        } else {
+            if (mopaiIsQue) {//摸起来的牌就是缺的牌
+                width = (holdsLength - queNumbersInHolds) * 75; 
+            } else {
+                width = (holdsLength - 1 - queNumbersInHolds) * 75; 
+            }
+        }*/
+        this.holdsmask.width = width;
+        this.holdsmask.children[0].width = this.holdsmask.width;
+        console.log('displayHoldsMask-->width is ' + width);
+        console.log('displayHoldsMask-->x is ' + x);
+        this.holdsmask.active = true;    
     },
 
-    checkDisplayMask(queNumbersInHolds) {
-        console.log('checkDisplayMask is called with queNumbersInHolds = ' + queNumbersInHolds);
+    checkDisplayHoldsMask(mopai) {
+        var seats = cc.vv.gameNetMgr.seats;
+        var seatData = seats[cc.vv.gameNetMgr.seatIndex];
+        var holds = this.sortHolds(seatData);      
+        if(holds == null){
+            this.hiddenHoldsMask();
+            return;
+        }
+        const holdLength = holds.length;
+        let queNumbersInHolds = 0;
+        var dingque = seatData.dingque;
+        for (var i = 0 ; i < holdLength; i++) {
+            var holdPai = cc.vv.mahjongmgr.getMahjongType(holds[i]);
+            if (holdPai === dingque) {
+                queNumbersInHolds++;
+            }
+        }
         if (queNumbersInHolds <= 0){
             this.hiddenHoldsMask();
         } else {
-            this.displayHoldsMask(queNumbersInHolds);
+            var mopaiType = cc.vv.mahjongmgr.getMahjongType(mopai);
+            var mopaiIsQue = false;
+            if (mopaiType === dingque) {//摸起来的牌就是缺的牌
+                mopaiIsQue = true;
+            }
+            this.displayHoldsMask(holdLength, queNumbersInHolds, mopaiIsQue);
         }
     },
 
@@ -290,14 +343,13 @@ cc.Class({
             if(data.last != cc.vv.gameNetMgr.seatIndex){
                 self.initMopai(data.last,null);   
             }
+console.log('game_chupai is called with data ', data);            
             if(!cc.vv.replayMgr.isReplay() && data.turn != cc.vv.gameNetMgr.seatIndex){
                 self.initMopai(data.turn,-1);
             }
         });
         
         this.node.on('game_mopai',function(data){
-
-            self.checkDisplayMask(3);
             self.hideChupai();
             var pai = data.pai;
             var localIndex = cc.vv.gameNetMgr.getLocalIndex(data.seatIndex);
@@ -310,6 +362,7 @@ cc.Class({
             else if(cc.vv.replayMgr.isReplay()){
                 self.initMopai(data.seatIndex,pai);
             }
+            self.checkDisplayHoldsMask(pai);
         });
         
         this.node.on('game_action',function(data){
@@ -398,6 +451,9 @@ cc.Class({
             self.showChupai();
             var audioUrl = cc.vv.mahjongmgr.getAudioURLByMJID(data.pai);
             cc.vv.audioMgr.playSFX(audioUrl);
+            console.log('game_chupai_notify --> data is', data);
+
+
         });
         
         this.node.on('guo_notify',function(data){
@@ -511,6 +567,7 @@ cc.Class({
     },
     
     showAction:function(data){
+        console.log('showAction --> data is ', data);
         if(this._options.active){
             this.hideOptions();
         }
@@ -530,6 +587,24 @@ cc.Class({
                     this.addOption("btnGang",gp);
                 }
             }   
+        } else {//Added by Ellis
+            
+            if (data) {
+                var mopai = data.pai;
+                console.log('showAction --> mopai is ', mopai); 
+                if (mopai) {
+                    this.checkDisplayHoldsMask(mopai);
+                }
+            } else {
+                var seats = cc.vv.gameNetMgr.seats;
+                var seatData = seats[cc.vv.gameNetMgr.seatIndex];
+                var holds = seatData.holds;
+                console.log('showAction --> holds is ', holds); 
+                if (holds && holds.length === 14) {//初始化显示
+                    console.log('showAction --> mopai is ', holds[13]); 
+                    this.checkDisplayHoldsMask(holds[13]);
+                }
+            }
         }
     },
     
@@ -707,6 +782,7 @@ console.log('MJGame.js onGameBeign is called....cc.vv.gameNetMgr.seats.length is
         if(mjId == null){
             return;
         }
+        this.hiddenHoldsMask();
         cc.vv.net.send('chupai',mjId);
     },
     
@@ -834,6 +910,7 @@ console.log('MJGame.js onGameBeign is called....cc.vv.gameNetMgr.seats.length is
         return holds;
     },
     
+    //显示自己的手牌
     initMahjongs:function(){
         console.log('MJGame.initMahjongs is called ');
         var seats = cc.vv.gameNetMgr.seats;
@@ -845,6 +922,7 @@ console.log('MJGame.js onGameBeign is called....cc.vv.gameNetMgr.seats.length is
             return;
         }
         
+        console.log('initMahjongs --> holds.length is ', holds.length);
         //初始化手牌
         var lackingNum = (seatData.pengs.length + seatData.angangs.length + seatData.diangangs.length + seatData.wangangs.length)*3;
         for(var i = 0; i < holds.length; ++i){
@@ -939,7 +1017,7 @@ console.log('MJGame.js onGameBeign is called....cc.vv.gameNetMgr.seats.length is
     },
     
     onOptionClicked:function(event){
-        console.log(event.target.pai);
+        console.log('onOptionClicked event is ', event);
         if(event.target.name == "btnPeng"){
             cc.vv.net.send("peng");
         }

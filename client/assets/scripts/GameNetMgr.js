@@ -425,13 +425,12 @@ console.log("game_sync_push.numberPlayers is ", numberPlayers);
         
         cc.vv.net.addHandler("game_action_push",function(data){
             self.curaction = data;
-            console.log(data);
+            console.log('game_action_push --> data is ', data);
             self.dispatchEvent('game_action',data);
         });
         
         cc.vv.net.addHandler("game_chupai_push",function(data){
-            console.log('game_chupai_push');
-            //console.log(data);
+            console.log('game_chupai_push-->data is', data);
             var turnUserID = data;
             var si = self.getSeatIndexByID(turnUserID);
             self.doTurnChange(si);
@@ -476,6 +475,8 @@ console.log("game_sync_push.numberPlayers is ", numberPlayers);
             var userId = data.userId;
             var pai = data.pai;
             var si = self.getSeatIndexByID(userId);
+   console.log('game_chupai_notify_push--> data is ', data);         
+   console.log('game_chupai_notify_push--> si is ', si);  
             self.doChupai(si,pai);
         });
         
@@ -528,8 +529,8 @@ console.log("game_sync_push.numberPlayers is ", numberPlayers);
         });
         
         cc.vv.net.addHandler("peng_notify_push",function(data){
-            console.log('peng_notify_push');
-            console.log(data);
+            console.log('peng_notify_push-->data is', data);
+            //console.log(data);
             var userId = data.userid;
             var pai = data.pai;
             var si = self.getSeatIndexByID(userId);
